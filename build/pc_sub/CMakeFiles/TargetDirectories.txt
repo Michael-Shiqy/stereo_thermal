@@ -1,0 +1,10 @@
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/uninstall.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/pc_sub_uninstall.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/pc_sub.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/test.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/edit_cache.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/rebuild_cache.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/list_install_components.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/install.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/install/local.dir
+/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/install/strip.dir

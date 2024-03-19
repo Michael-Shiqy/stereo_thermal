@@ -1,0 +1,41 @@
+[0.109s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target zed_wrapper[0m
+[0.149s] [100%] Built target zed_wrapper
+[0.157s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[0.175s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
+[0.181s] -- Install configuration: "Release"
+[0.181s] -- Execute custom install script
+[0.181s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[0.181s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[0.182s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2i.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedm.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedx.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedxm.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[0.183s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[0.184s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[0.185s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[0.185s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[0.185s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[0.192s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[0.192s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[0.192s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[0.192s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[0.195s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper

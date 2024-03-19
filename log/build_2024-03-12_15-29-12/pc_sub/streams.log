@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+[3.205s] In file included from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[3.205s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[3.205s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[3.205s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[3.205s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[3.205s]                  from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[3.205s] /usr/include/pcl-1.12/pcl/point_struct_traits.h: In instantiation of ‘[01m[Kstruct pcl::traits::fieldList<PointXYZT>[m[K’:
+[3.205s] [01m[K/usr/include/pcl-1.12/pcl/conversions.h:126:5:[m[K   required from ‘[01m[Kvoid pcl::createMapping(const std::vector<pcl::PCLPointField>&, pcl::MsgFieldMap&) [with PointT = PointXYZT; pcl::MsgFieldMap = std::vector<pcl::detail::FieldMapping>][m[K’
+[3.205s] [01m[K/usr/include/pcl-1.12/pcl/conversions.h:229:27:[m[K   required from ‘[01m[Kvoid pcl::fromPCLPointCloud2(const pcl::PCLPointCloud2&, pcl::PointCloud<PointT>&) [with PointT = PointXYZT][m[K’
+[3.205s] [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:570:28:[m[K   required from ‘[01m[Kvoid pcl::fromROSMsg(const PointCloud2&, pcl::PointCloud<PointT>&) [with T = PointXYZT; sensor_msgs::msg::PointCloud2 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K’
+[3.205s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:22:20:[m[K   required from here
+[3.205s] [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:195:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct pcl::traits::fieldList<PointXYZT>[m[K’
+[3.205s]   195 | struct [01;31m[KfieldList[m[K /** \cond NO_WARN_RECURSIVE */ : fieldList<typename POD<PointT>::type> /** \endcond */
+[3.205s]       |        [01;31m[K^~~~~~~~~[m[K
+[3.205s] [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:195:8:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct pcl::traits::fieldList<PointXYZT>[m[K’
+[3.205s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:40[m[K,
+[3.205s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[3.206s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[3.206s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[3.206s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[3.206s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[3.206s]                  from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[3.206s] [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:201:3:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpcl::traits::fieldList<PointXYZT>::POINT_TYPE_NOT_PROPERLY_REGISTERED201::assert_arg()[m[K’ from ‘[01m[Kmpl_::failed************ (pcl::traits::fieldList<PointXYZT>::POINT_TYPE_NOT_PROPERLY_REGISTERED::************)(PointXYZT&)[m[K’ to ‘[01m[Kmpl_::assert<false>::type[m[K’ {aka ‘[01m[Kmpl_::assert<false>[m[K’}
+[3.206s]   201 |   [01;31m[KB[m[KOOST_MPL_ASSERT_MSG((!std::is_same<PointT, typename POD<PointT>::type>::value),
+[3.206s]       |   [01;31m[K^[m[K
+[3.206s]       |   [01;31m[K|[m[K
+[3.206s]       |   [01;31m[Kmpl_::failed************ (pcl::traits::fieldList<PointXYZT>::POINT_TYPE_NOT_PROPERLY_REGISTERED::************)(PointXYZT&)[m[K
+[3.206s] In file included from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+[3.206s]                  from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[3.206s] /usr/include/pcl-1.12/pcl/conversions.h: In instantiation of ‘[01m[Kvoid pcl::createMapping(const std::vector<pcl::PCLPointField>&, pcl::MsgFieldMap&) [with PointT = PointXYZT; pcl::MsgFieldMap = std::vector<pcl::detail::FieldMapping>][m[K’:
+[3.206s] [01m[K/usr/include/pcl-1.12/pcl/conversions.h:229:27:[m[K   required from ‘[01m[Kvoid pcl::fromPCLPointCloud2(const pcl::PCLPointCloud2&, pcl::PointCloud<PointT>&) [with PointT = PointXYZT][m[K’
+[3.206s] [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:570:28:[m[K   required from ‘[01m[Kvoid pcl::fromROSMsg(const PointCloud2&, pcl::PointCloud<PointT>&) [with T = PointXYZT; sensor_msgs::msg::PointCloud2 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K’
+[3.206s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:22:20:[m[K   required from here
+[3.206s] [01m[K/usr/include/pcl-1.12/pcl/conversions.h:126:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct pcl::traits::fieldList<PointXYZT>[m[K’
+[3.206s]   126 |     [01;31m[Kfor_each_type< typename traits::fieldList<PointT>::type >[m[K (mapper);
+[3.206s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.721s] gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1
+[4.721s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2
+[4.721s] gmake: *** [Makefile:146: all] Error 2
+[4.724s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20

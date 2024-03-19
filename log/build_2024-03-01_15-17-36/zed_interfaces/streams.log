@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces': /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.386s] -- Detecting CXX compile features
+[0.386s] -- Detecting CXX compile features - done
+[0.387s] [0m* ROS2 distro variable not set. Trying to figure it out...[0m
+[0.388s] [0m*** WARNING *** ROS2 distro is unknown. This package could not work correctly.[0m
+[0.395s] -- Configuring incomplete, errors occurred!
+[0.395s] See also "/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces/CMakeFiles/CMakeOutput.log".
+[0.395s] [31mCMake Error at CMakeLists.txt:54 (find_package):
+[0.395s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.395s]   project has asked CMake to find a package configuration file provided by
+[0.395s]   "ament_cmake_auto", but CMake did not find one.
+[0.395s] 
+[0.396s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.396s]   with any of the following names:
+[0.396s] 
+[0.396s]     ament_cmake_autoConfig.cmake
+[0.396s]     ament_cmake_auto-config.cmake
+[0.396s] 
+[0.396s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.396s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.396s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.396s]   SDK, be sure it has been installed.
+[0.396s] 
+[0.396s] [0m
+[0.398s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces' returned '1': /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces

@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+[6.920s] [100%] [32m[1mLinking CXX executable pc_sub[0m
+[7.332s] [100%] Built target pc_sub
+[7.344s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[7.368s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/pc_sub
+[7.373s] -- Install configuration: ""
+[7.373s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/lib/pc_sub/pc_sub
+[7.376s] -- Set runtime path of "/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/lib/pc_sub/pc_sub" to ""
+[7.376s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/package_run_dependencies/pc_sub
+[7.376s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/parent_prefix_path/pc_sub
+[7.376s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.sh
+[7.376s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.dsv
+[7.376s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.sh
+[7.376s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.dsv
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.bash
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.sh
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.zsh
+[7.377s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.dsv
+[7.377s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.dsv
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/packages/pc_sub
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig.cmake
+[7.377s] -- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig-version.cmake
+[7.377s] -- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.xml
+[7.378s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/pc_sub

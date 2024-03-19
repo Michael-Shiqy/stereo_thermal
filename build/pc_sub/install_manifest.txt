@@ -1,0 +1,16 @@
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/lib/pc_sub/pc_sub
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/package_run_dependencies/pc_sub
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/parent_prefix_path/pc_sub
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.sh
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.dsv
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.sh
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.dsv
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.bash
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.sh
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.zsh
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.dsv
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.dsv
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/packages/pc_sub
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig.cmake
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig-version.cmake
+/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.xml

@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000092] (-) JobUnselected: {'identifier': 'zed_aruco_localization'}
+[0.000111] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000122] (-) JobUnselected: {'identifier': 'zed_depth_to_laserscan'}
+[0.000130] (-) JobUnselected: {'identifier': 'zed_display_rviz2'}
+[0.000139] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000148] (-) JobUnselected: {'identifier': 'zed_multi_camera'}
+[0.000156] (-) JobUnselected: {'identifier': 'zed_rgb_convert'}
+[0.000165] (-) JobUnselected: {'identifier': 'zed_robot_integration'}
+[0.000173] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000181] (-) JobUnselected: {'identifier': 'zed_tutorial_depth'}
+[0.000434] (-) JobUnselected: {'identifier': 'zed_tutorial_pos_tracking'}
+[0.000464] (-) JobUnselected: {'identifier': 'zed_tutorial_video'}
+[0.000475] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000487] (pc_sub) JobQueued: {'identifier': 'pc_sub', 'dependencies': OrderedDict()}
+[0.000499] (pc_sub) JobStarted: {'identifier': 'pc_sub'}
+[0.030091] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'cmake'}
+[0.030229] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'build'}
+[0.030280] (pc_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(stereo_thermal)'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib'), ('HOME', '/home/shi'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/shi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shi/anaconda3/envs/stereo_thermal/bin:/home/shi/anaconda3/condabin:/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2154,unix/R-Daneel:/tmp/.ICE-unix/2154'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9da0a9cc_585a_457d_b0f2_0b7697b97e52'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('CONDA_PREFIX_1', '/home/shi/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub'), ('CONDA_PYTHON_EXE', '/home/shi/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'stereo_thermal'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('CONDA_PREFIX', '/home/shi/anaconda3/envs/stereo_thermal'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub:/opt/ros/humble')]), 'shell': False}
+[0.069633] (pc_sub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pc_sub\x1b[0m\n'}
+[0.087752] (pc_sub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o\x1b[0m\n'}
+[0.099617] (-) TimerEvent: {}
+[0.199932] (-) TimerEvent: {}
+[0.300209] (-) TimerEvent: {}
+[0.400473] (-) TimerEvent: {}
+[0.500893] (-) TimerEvent: {}
+[0.601160] (-) TimerEvent: {}
+[0.701484] (-) TimerEvent: {}
+[0.801809] (-) TimerEvent: {}
+[0.902137] (-) TimerEvent: {}
+[1.002470] (-) TimerEvent: {}
+[1.102992] (-) TimerEvent: {}
+[1.203433] (-) TimerEvent: {}
+[1.303791] (-) TimerEvent: {}
+[1.404059] (-) TimerEvent: {}
+[1.504310] (-) TimerEvent: {}
+[1.604578] (-) TimerEvent: {}
+[1.704834] (-) TimerEvent: {}
+[1.805088] (-) TimerEvent: {}
+[1.905355] (-) TimerEvent: {}
+[2.005693] (-) TimerEvent: {}
+[2.105957] (-) TimerEvent: {}
+[2.206286] (-) TimerEvent: {}
+[2.306541] (-) TimerEvent: {}
+[2.406783] (-) TimerEvent: {}
+[2.507035] (-) TimerEvent: {}
+[2.607283] (-) TimerEvent: {}
+[2.707494] (-) TimerEvent: {}
+[2.807719] (-) TimerEvent: {}
+[2.907944] (-) TimerEvent: {}
+[2.932404] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid processPointCloud(const PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.932547] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator!=\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.932597] (pc_sub) StderrLine: {'line': b'   25 |             if (\x1b[32m\x1b[Kpoint.x\x1b[m\x1b[K \x1b[01;31m\x1b[K!=\x1b[m\x1b[K \x1b[34m\x1b[Knan\x1b[m\x1b[K && point.y != nan && point.z != nan)\n'}
+[2.932632] (pc_sub) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.932664] (pc_sub) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.932695] (pc_sub) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\n'}
+[2.932729] (pc_sub) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kconst float\x1b[m\x1b[K\n'}
+[2.932760] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator!=\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.932792] (pc_sub) StderrLine: {'line': b'   25 |             if (point.x != nan && \x1b[32m\x1b[Kpoint.y\x1b[m\x1b[K \x1b[01;31m\x1b[K!=\x1b[m\x1b[K \x1b[34m\x1b[Knan\x1b[m\x1b[K && point.z != nan)\n'}
+[2.932823] (pc_sub) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.932854] (pc_sub) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.932883] (pc_sub) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\n'}
+[2.932912] (pc_sub) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kconst float\x1b[m\x1b[K\n'}
+[2.932941] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator!=\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.932974] (pc_sub) StderrLine: {'line': b'   25 |             if (point.x != nan && point.y != nan && \x1b[32m\x1b[Kpoint.z\x1b[m\x1b[K \x1b[01;31m\x1b[K!=\x1b[m\x1b[K \x1b[34m\x1b[Knan\x1b[m\x1b[K)\n'}
+[2.933012] (pc_sub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.933040] (pc_sub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.933069] (pc_sub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K    \x1b[34m\x1b[Kdouble(const char*) noexcept\x1b[m\x1b[K\n'}
+[2.933097] (pc_sub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Kconst float\x1b[m\x1b[K\n'}
+[3.008134] (-) TimerEvent: {}
+[3.108454] (-) TimerEvent: {}
+[3.208721] (-) TimerEvent: {}
+[3.308978] (-) TimerEvent: {}
+[3.409310] (-) TimerEvent: {}
+[3.509637] (-) TimerEvent: {}
+[3.609967] (-) TimerEvent: {}
+[3.710232] (-) TimerEvent: {}
+[3.810491] (-) TimerEvent: {}
+[3.910726] (-) TimerEvent: {}
+[4.010943] (-) TimerEvent: {}
+[4.111213] (-) TimerEvent: {}
+[4.211444] (-) TimerEvent: {}
+[4.311680] (-) TimerEvent: {}
+[4.411970] (-) TimerEvent: {}
+[4.512238] (-) TimerEvent: {}
+[4.612465] (-) TimerEvent: {}
+[4.710843] (pc_sub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1\n'}
+[4.711019] (pc_sub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2\n'}
+[4.711202] (pc_sub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.712508] (-) TimerEvent: {}
+[4.712745] (pc_sub) CommandEnded: {'returncode': 2}
+[4.761766] (pc_sub) JobEnded: {'identifier': 'pc_sub', 'rc': 2}
+[4.772125] (-) EventReactorShutdown: {}

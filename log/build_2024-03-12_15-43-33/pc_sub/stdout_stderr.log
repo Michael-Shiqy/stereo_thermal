@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/mman.h:25[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/low_level_io.h:62[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:50[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator+=(PointXYZT&, const PointXYZT&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator+=(PointXYZT&, const float&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator-=(PointXYZT&, const PointXYZT&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator-=(PointXYZT&, const float&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator*=(PointXYZT&, const float&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kconst PointXYZT& pcl::common::operator/=(PointXYZT&, const float&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct PointXYZT[m[K’ has no member named ‘[01m[Ktemp[m[K’
+   23 |                                   (float, [01;31m[Ktemp[m[K, temp))
+      |                                           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,48 @@
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPointXYZ[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::PointXYZ[m[K’?
+   18 | pcl::PointCloud<[01;31m[KPointXYZ[m[K> processPointCloud(const sensor_msgs::msg::PointCloud2& input)
+      |                 [01;31m[K^~~~~~~~[m[K
+      |                 [32m[Kpcl::PointXYZ[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:346:24:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::PointXYZ[m[K’ declared here
+  346 |   struct EIGEN_ALIGN16 [01;36m[KPointXYZ[m[K : public _PointXYZ
+      |                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:18:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 | pcl::PointCloud<PointXYZ[01;31m[K>[m[K processPointCloud(const sensor_msgs::msg::PointCloud2& input)
+      |                         [01;31m[K^[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kint processPointCloud(const PointCloud2&)[m[K’:
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPointXYZ[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::PointXYZ[m[K’?
+   21 |     pcl::PointCloud<[01;31m[KPointXYZ[m[K>::Ptr cloud(new pcl::PointCloud<PointXYZ>);
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Kpcl::PointXYZ[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:346:24:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::PointXYZ[m[K’ declared here
+  346 |   struct EIGEN_ALIGN16 [01;36m[KPointXYZ[m[K : public _PointXYZ
+      |                        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:21:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     pcl::PointCloud<PointXYZ[01;31m[K>[m[K::Ptr cloud(new pcl::PointCloud<PointXYZ>);
+      |                             [01;31m[K^[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:21:36:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud[m[K’
+   21 |     pcl::PointCloud<PointXYZ>::Ptr [01;31m[Kcloud[m[K(new pcl::PointCloud<PointXYZ>);
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:22:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+   22 |     pcl::fromROSMsg(input, *[01;31m[Kcloud[m[K);
+      |                             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

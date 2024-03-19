@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'zed_aruco_localization'}
+[0.000126] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000137] (-) JobUnselected: {'identifier': 'zed_depth_to_laserscan'}
+[0.000146] (-) JobUnselected: {'identifier': 'zed_display_rviz2'}
+[0.000154] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000163] (-) JobUnselected: {'identifier': 'zed_multi_camera'}
+[0.000172] (-) JobUnselected: {'identifier': 'zed_rgb_convert'}
+[0.000181] (-) JobUnselected: {'identifier': 'zed_robot_integration'}
+[0.000190] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000198] (-) JobUnselected: {'identifier': 'zed_tutorial_depth'}
+[0.000207] (-) JobUnselected: {'identifier': 'zed_tutorial_pos_tracking'}
+[0.000215] (-) JobUnselected: {'identifier': 'zed_tutorial_video'}
+[0.000224] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000235] (pc_sub) JobQueued: {'identifier': 'pc_sub', 'dependencies': OrderedDict()}
+[0.000246] (pc_sub) JobStarted: {'identifier': 'pc_sub'}
+[0.028822] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'cmake'}
+[0.029595] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'build'}
+[0.029679] (pc_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(stereo_thermal)'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib'), ('HOME', '/home/shi'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/shi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shi/anaconda3/envs/stereo_thermal/bin:/home/shi/anaconda3/condabin:/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2154,unix/R-Daneel:/tmp/.ICE-unix/2154'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9da0a9cc_585a_457d_b0f2_0b7697b97e52'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('CONDA_PREFIX_1', '/home/shi/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub'), ('CONDA_PYTHON_EXE', '/home/shi/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'stereo_thermal'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('CONDA_PREFIX', '/home/shi/anaconda3/envs/stereo_thermal'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub:/opt/ros/humble')]), 'shell': False}
+[0.046380] (pc_sub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099434] (-) TimerEvent: {}
+[0.130568] (pc_sub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.154324] (pc_sub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.155830] (pc_sub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.159656] (pc_sub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166815] (pc_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.176831] (pc_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199605] (-) TimerEvent: {}
+[0.213995] (pc_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.215121] (pc_sub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.293843] (pc_sub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299790] (-) TimerEvent: {}
+[0.395302] (pc_sub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.399967] (-) TimerEvent: {}
+[0.487465] (pc_sub) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.500162] (-) TimerEvent: {}
+[0.507207] (pc_sub) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.536119] (pc_sub) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.536308] (pc_sub) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.572262] (pc_sub) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.600375] (-) TimerEvent: {}
+[0.621958] (pc_sub) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.636035] (pc_sub) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[0.669818] (pc_sub) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[0.671018] (pc_sub) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[0.671164] (pc_sub) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.700580] (-) TimerEvent: {}
+[0.725081] (pc_sub) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[0.725285] (pc_sub) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.725347] (pc_sub) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.725424] (pc_sub) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[0.751723] (pc_sub) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.755772] (pc_sub) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.800774] (-) TimerEvent: {}
+[0.901130] (-) TimerEvent: {}
+[0.903838] (pc_sub) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.904029] (pc_sub) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.905892] (pc_sub) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.912710] (pc_sub) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.924266] (pc_sub) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.937241] (pc_sub) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.001323] (-) TimerEvent: {}
+[1.002395] (pc_sub) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.003069] (pc_sub) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.074824] (pc_sub) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.075249] (pc_sub) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.101520] (-) TimerEvent: {}
+[1.133803] (pc_sub) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.134168] (pc_sub) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.201726] (-) TimerEvent: {}
+[1.207676] (pc_sub) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.207784] (pc_sub) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.271083] (pc_sub) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.271209] (pc_sub) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.301812] (-) TimerEvent: {}
+[1.332920] (pc_sub) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.333058] (pc_sub) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.389427] (pc_sub) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.401884] (-) TimerEvent: {}
+[1.447081] (pc_sub) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.448295] (pc_sub) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.450040] (pc_sub) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.451715] (pc_sub) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.459678] (pc_sub) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.463469] (pc_sub) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.466274] (pc_sub) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.469896] (pc_sub) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.492618] (pc_sub) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.492713] (pc_sub) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.493375] (pc_sub) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.493461] (pc_sub) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.493997] (pc_sub) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.494082] (pc_sub) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.494614] (pc_sub) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.494723] (pc_sub) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  \n'}
+[1.501721] (pc_sub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.501805] (pc_sub) StderrLine: {'line': b'  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.501850] (pc_sub) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.501882] (-) TimerEvent: {}
+[1.501946] (pc_sub) StderrLine: {'line': b'  "pcl_conversions", but CMake did not find one.\n'}
+[1.501985] (pc_sub) StderrLine: {'line': b'\n'}
+[1.502018] (pc_sub) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_conversions"\n'}
+[1.502049] (pc_sub) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.502079] (pc_sub) StderrLine: {'line': b'\n'}
+[1.502109] (pc_sub) StderrLine: {'line': b'    pcl_conversionsConfig.cmake\n'}
+[1.502141] (pc_sub) StderrLine: {'line': b'    pcl_conversions-config.cmake\n'}
+[1.502171] (pc_sub) StderrLine: {'line': b'\n'}
+[1.502199] (pc_sub) StderrLine: {'line': b'  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or\n'}
+[1.502228] (pc_sub) StderrLine: {'line': b'  set "pcl_conversions_DIR" to a directory containing one of the above files.\n'}
+[1.502256] (pc_sub) StderrLine: {'line': b'  If "pcl_conversions" provides a separate development package or SDK, be\n'}
+[1.502285] (pc_sub) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.502314] (pc_sub) StderrLine: {'line': b'\n'}
+[1.502342] (pc_sub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.502370] (pc_sub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.502403] (pc_sub) StdoutLine: {'line': b'See also "/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/CMakeOutput.log".\n'}
+[1.508384] (pc_sub) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.509775] (pc_sub) CommandEnded: {'returncode': 2}
+[1.567493] (pc_sub) JobEnded: {'identifier': 'pc_sub', 'rc': 2}
+[1.577977] (-) EventReactorShutdown: {}

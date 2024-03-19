@@ -1,0 +1,1033 @@
+[0.506s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args=-DCMAKE_BUILD_TYPE=Release']
+[0.506s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1ebddd2bf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1ebefcff40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1ebefcff40>>)
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shi/ENSTA/ROB314/test_ws'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ros'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'cmake'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.544s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples) by extension 'python_setup_py'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_aruco_localization) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/examples/zed_aruco_localization' with type 'ros.ament_cmake' and name 'zed_aruco_localization'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/examples/zed_depth_to_laserscan) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/examples/zed_depth_to_laserscan' with type 'ros.ament_cmake' and name 'zed_depth_to_laserscan'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extensions ['python_setup_py']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_depth_tutorial) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_depth_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_depth'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_multi_camera) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_multi_camera' with type 'ros.ament_cmake' and name 'zed_multi_camera'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_pose_tutorial) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_pose_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_pos_tracking'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_rgb_convert) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_rgb_convert' with type 'ros.ament_cmake' and name 'zed_rgb_convert'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_robot_integration) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_robot_integration' with type 'ros.ament_cmake' and name 'zed_robot_integration'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/tutorials/zed_video_tutorial) by extension 'ros'
+[0.554s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/tutorials/zed_video_tutorial' with type 'ros.ament_cmake' and name 'zed_tutorial_video'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-examples/zed_display_rviz2) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-examples/zed_display_rviz2' with type 'ros.ament_cmake' and name 'zed_display_rviz2'
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.619s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/shi/ENSTA/ROB314/test_ws/install
+[0.627s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'zed_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed-ros2-interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_target' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_clean_first' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'cmake_force_configure' from command line to 'False'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'ament_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.690s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_depth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.690s] DEBUG:colcon.colcon_core.verb:Building package 'zed_tutorial_depth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_depth_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_pos_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'zed_tutorial_pos_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_pose_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'zed_tutorial_video' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'zed_tutorial_video' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_video_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_components', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components', 'symlink_install': True, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'zed_aruco_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'zed_aruco_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_aruco_localization', 'symlink_install': True, 'test_result_base': None}
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_target' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_clean_cache' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_clean_first' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'cmake_force_configure' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'ament_cmake_args' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'catkin_cmake_args' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'zed_rgb_convert' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.727s] DEBUG:colcon.colcon_core.verb:Building package 'zed_rgb_convert' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_rgb_convert', 'symlink_install': True, 'test_result_base': None}
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': True, 'test_result_base': None}
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'zed_depth_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.742s] DEBUG:colcon.colcon_core.verb:Building package 'zed_depth_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_depth_to_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_target' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_clean_first' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'cmake_force_configure' from command line to 'False'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'ament_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'zed_display_rviz2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.750s] DEBUG:colcon.colcon_core.verb:Building package 'zed_display_rviz2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/zed_display_rviz2', 'symlink_install': True, 'test_result_base': None}
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_target' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'zed_multi_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'zed_multi_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_multi_camera', 'symlink_install': True, 'test_result_base': None}
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_target' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_clean_first' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'cmake_force_configure' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'ament_cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'zed_robot_integration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.764s] DEBUG:colcon.colcon_core.verb:Building package 'zed_robot_integration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_robot_integration', 'symlink_install': True, 'test_result_base': None}
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.772s] DEBUG:colcon.colcon_core.verb:Building package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2', 'merge_install': False, 'path': '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.779s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed-ros2-interfaces' with build type 'ament_cmake'
+[0.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed-ros2-interfaces'
+[0.795s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_depth_tutorial' with build type 'ament_cmake'
+[0.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_depth_tutorial'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.851s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_pose_tutorial' with build type 'ament_cmake'
+[0.851s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_pose_tutorial'
+[0.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_video_tutorial' with build type 'ament_cmake'
+[0.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_video_tutorial'
+[0.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces -- -j20 -l20
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces -- -j20 -l20
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces
+[1.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces' for CMake module files
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces' for CMake config files
+[1.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib'
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/bin'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/python3.10/site-packages'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/bin'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.sh'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[1.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[1.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces' for CMake module files
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib'
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/bin'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/python3.10/site-packages'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/bin'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.sh'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.bash'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[1.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[1.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[1.676s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components'
+[1.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_components -- -j20 -l20
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_components -- -j20 -l20
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_components
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_components
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components' for CMake module files
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components' for CMake config files
+[1.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib'
+[1.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[1.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[1.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[1.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/bin'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/python3.10/site-packages'
+[1.824s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/bin'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.dsv'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.zsh'
+[1.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video -- -j20 -l20
+[1.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components' for CMake module files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components' for CMake config files
+[1.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib'
+[1.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/bin'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/python3.10/site-packages'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/bin'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.sh'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.bash'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.zsh'
+[1.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[1.896s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper' with build type 'ament_cmake'
+[1.897s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper'
+[1.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.928s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_aruco_localization' with build type 'ament_cmake'
+[1.928s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_aruco_localization'
+[1.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_rgb_convert' with build type 'ament_cmake'
+[1.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_rgb_convert'
+[1.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_depth_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth -- -j20 -l20
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_aruco_localization -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_rgb_convert -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert
+[2.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
+[2.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[2.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper' for CMake module files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/python3.10/site-packages'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/bin'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.sh'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.bash'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[2.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking
+[2.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking -- -j20 -l20
+[2.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_wrapper)
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper' for CMake module files
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper' for CMake config files
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_wrapper', 'cmake_prefix_path')
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/hook/cmake_prefix_path.sh'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/bin'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/pkgconfig/zed_wrapper.pc'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/python3.10/site-packages'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/bin'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.dsv'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.sh'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.bash'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.zsh'
+[2.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/colcon-core/packages/zed_wrapper)
+[2.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_depth_to_laserscan' with build type 'ament_cmake'
+[2.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_depth_to_laserscan'
+[2.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/zed_display_rviz2' with build type 'ament_cmake'
+[2.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/zed_display_rviz2'
+[2.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_multi_camera' with build type 'ament_cmake'
+[2.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_multi_camera'
+[2.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_robot_integration' with build type 'ament_cmake'
+[2.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_robot_integration'
+[2.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_ros2' with build type 'ament_cmake'
+[2.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_ros2'
+[2.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_depth_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan
+[2.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/zed_display_rviz2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2
+[2.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_multi_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera
+[2.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_robot_integration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration
+[2.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_ros2 -- -j20 -l20
+[2.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_ros2 -- -j20 -l20
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_ros2
+[2.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_ros2
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2' for CMake module files
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2' for CMake config files
+[2.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[2.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[2.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/bin'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/lib/python3.10/site-packages'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/bin'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.ps1'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.dsv'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.sh'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.bash'
+[2.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.zsh'
+[2.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[2.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_ros2)
+[2.681s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2' for CMake module files
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2' for CMake config files
+[2.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_ros2', 'cmake_prefix_path')
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.dsv'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/hook/cmake_prefix_path.sh'
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/bin'
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/lib/pkgconfig/zed_ros2.pc'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/lib/python3.10/site-packages'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/bin'
+[2.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.sh'
+[2.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.bash'
+[2.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.zsh'
+[2.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/colcon-core/packages/zed_ros2)
+[3.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/zed_display_rviz2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2 -- -j20 -l20
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_robot_integration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration
+[3.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration -- -j20 -l20
+[3.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2 -- -j20 -l20
+[3.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_multi_camera -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera
+[3.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera -- -j20 -l20
+[3.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration -- -j20 -l20
+[3.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2
+[3.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera -- -j20 -l20
+[3.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration
+[3.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera
+[3.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_robot_integration)
+[3.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_robot_integration
+[3.332s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration' for CMake module files
+[3.332s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration' for CMake config files
+[3.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_robot_integration', 'cmake_prefix_path')
+[3.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.ps1'
+[3.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.dsv'
+[3.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.sh'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/bin'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/lib/pkgconfig/zed_robot_integration.pc'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/lib/python3.10/site-packages'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/bin'
+[3.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.ps1'
+[3.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.dsv'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.sh'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.bash'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.zsh'
+[3.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/colcon-core/packages/zed_robot_integration)
+[3.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_multi_camera)
+[3.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_multi_camera
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera' for CMake module files
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera' for CMake config files
+[3.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_multi_camera', 'cmake_prefix_path')
+[3.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.ps1'
+[3.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.sh'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/bin'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/lib/pkgconfig/zed_multi_camera.pc'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/lib/python3.10/site-packages'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/bin'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.ps1'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.dsv'
+[3.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.sh'
+[3.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.bash'
+[3.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.zsh'
+[3.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/colcon-core/packages/zed_multi_camera)
+[3.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_robot_integration)
+[3.453s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration' for CMake module files
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration' for CMake config files
+[3.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_robot_integration', 'cmake_prefix_path')
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.ps1'
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.dsv'
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/hook/cmake_prefix_path.sh'
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/bin'
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/lib/pkgconfig/zed_robot_integration.pc'
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/lib/python3.10/site-packages'
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/bin'
+[3.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.sh'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.bash'
+[3.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/zed_robot_integration/package.zsh'
+[3.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration/share/colcon-core/packages/zed_robot_integration)
+[3.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_display_rviz2)
+[3.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_display_rviz2
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2' for CMake module files
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2' for CMake config files
+[3.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_display_rviz2', 'cmake_prefix_path')
+[3.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.ps1'
+[3.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.dsv'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.sh'
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/bin'
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/lib/pkgconfig/zed_display_rviz2.pc'
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/lib/python3.10/site-packages'
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/bin'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.dsv'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.sh'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.bash'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.zsh'
+[3.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/colcon-core/packages/zed_display_rviz2)
+[3.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_multi_camera)
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera' for CMake module files
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera' for CMake config files
+[3.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_multi_camera', 'cmake_prefix_path')
+[3.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.ps1'
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.dsv'
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/hook/cmake_prefix_path.sh'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/bin'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/lib/pkgconfig/zed_multi_camera.pc'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/lib/python3.10/site-packages'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/bin'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.dsv'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.sh'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.bash'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/zed_multi_camera/package.zsh'
+[3.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera/share/colcon-core/packages/zed_multi_camera)
+[3.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_display_rviz2)
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2' for CMake module files
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2' for CMake config files
+[3.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_display_rviz2', 'cmake_prefix_path')
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.ps1'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.dsv'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/hook/cmake_prefix_path.sh'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/bin'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/lib/pkgconfig/zed_display_rviz2.pc'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/lib/python3.10/site-packages'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/bin'
+[3.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.ps1'
+[3.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.dsv'
+[3.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.sh'
+[3.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.bash'
+[3.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/zed_display_rviz2/package.zsh'
+[3.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2/share/colcon-core/packages/zed_display_rviz2)
+[4.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_aruco_localization -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization
+[4.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization -- -j20 -l20
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/examples/zed_depth_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan -- -j20 -l20
+[5.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan -- -j20 -l20
+[5.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan
+[5.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_depth_to_laserscan)
+[5.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_depth_to_laserscan
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan' for CMake module files
+[5.334s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan' for CMake config files
+[5.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_depth_to_laserscan', 'cmake_prefix_path')
+[5.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.ps1'
+[5.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.dsv'
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.sh'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/bin'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/lib/pkgconfig/zed_depth_to_laserscan.pc'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/lib/python3.10/site-packages'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/bin'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.ps1'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.dsv'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.sh'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.bash'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.zsh'
+[5.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/colcon-core/packages/zed_depth_to_laserscan)
+[5.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/zed-ros2-examples/tutorials/zed_rgb_convert -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert
+[5.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert -- -j20 -l20
+[5.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_depth_to_laserscan)
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan' for CMake module files
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan' for CMake config files
+[5.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_depth_to_laserscan', 'cmake_prefix_path')
+[5.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.ps1'
+[5.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.dsv'
+[5.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/hook/cmake_prefix_path.sh'
+[5.405s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/bin'
+[5.405s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/lib/pkgconfig/zed_depth_to_laserscan.pc'
+[5.405s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/lib/python3.10/site-packages'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/bin'
+[5.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.ps1'
+[5.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.dsv'
+[5.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.sh'
+[5.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.bash'
+[5.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/zed_depth_to_laserscan/package.zsh'
+[5.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan/share/colcon-core/packages/zed_depth_to_laserscan)
+[9.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video -- -j20 -l20
+[9.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video
+[9.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_video)
+[9.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_video
+[9.755s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video' for CMake module files
+[9.756s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video' for CMake config files
+[9.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_video', 'cmake_prefix_path')
+[9.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.ps1'
+[9.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.dsv'
+[9.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.sh'
+[9.765s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib'
+[9.765s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/bin'
+[9.765s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib/pkgconfig/zed_tutorial_video.pc'
+[9.765s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib/python3.10/site-packages'
+[9.766s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/bin'
+[9.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.ps1'
+[9.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv'
+[9.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.sh'
+[9.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.bash'
+[9.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.zsh'
+[9.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/colcon-core/packages/zed_tutorial_video)
+[9.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth -- -j20 -l20
+[9.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_video)
+[9.817s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video' for CMake module files
+[9.818s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video' for CMake config files
+[9.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_video', 'cmake_prefix_path')
+[9.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.ps1'
+[9.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.dsv'
+[9.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/hook/cmake_prefix_path.sh'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/bin'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib/pkgconfig/zed_tutorial_video.pc'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/lib/python3.10/site-packages'
+[9.827s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/bin'
+[9.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.ps1'
+[9.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv'
+[9.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.sh'
+[9.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.bash'
+[9.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.zsh'
+[9.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video/share/colcon-core/packages/zed_tutorial_video)
+[9.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth
+[9.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_depth)
+[9.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_depth
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth' for CMake module files
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth' for CMake config files
+[9.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_depth', 'cmake_prefix_path')
+[9.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.ps1'
+[9.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.dsv'
+[9.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.sh'
+[9.957s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib'
+[9.957s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/bin'
+[9.957s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib/pkgconfig/zed_tutorial_depth.pc'
+[9.957s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib/python3.10/site-packages'
+[9.957s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/bin'
+[9.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.ps1'
+[9.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv'
+[9.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.sh'
+[9.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.bash'
+[9.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.zsh'
+[9.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/colcon-core/packages/zed_tutorial_depth)
+[9.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_depth)
+[9.998s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth' for CMake module files
+[9.998s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth' for CMake config files
+[9.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_depth', 'cmake_prefix_path')
+[10.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.ps1'
+[10.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.dsv'
+[10.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/hook/cmake_prefix_path.sh'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/bin'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib/pkgconfig/zed_tutorial_depth.pc'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/lib/python3.10/site-packages'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/bin'
+[10.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.ps1'
+[10.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv'
+[10.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.sh'
+[10.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.bash'
+[10.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.zsh'
+[10.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth/share/colcon-core/packages/zed_tutorial_depth)
+[11.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking -- -j20 -l20
+[11.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking
+[11.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_pos_tracking)
+[11.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_tutorial_pos_tracking
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking' for CMake module files
+[12.010s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking' for CMake config files
+[12.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_pos_tracking', 'cmake_prefix_path')
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.ps1'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.dsv'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.sh'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/bin'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib/pkgconfig/zed_tutorial_pos_tracking.pc'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib/python3.10/site-packages'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/bin'
+[12.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.ps1'
+[12.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv'
+[12.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.sh'
+[12.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.bash'
+[12.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.zsh'
+[12.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/colcon-core/packages/zed_tutorial_pos_tracking)
+[12.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_tutorial_pos_tracking)
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking' for CMake module files
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking' for CMake config files
+[12.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_tutorial_pos_tracking', 'cmake_prefix_path')
+[12.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.ps1'
+[12.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.dsv'
+[12.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/hook/cmake_prefix_path.sh'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/bin'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib/pkgconfig/zed_tutorial_pos_tracking.pc'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/lib/python3.10/site-packages'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/bin'
+[12.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.ps1'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.sh'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.bash'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.zsh'
+[12.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking/share/colcon-core/packages/zed_tutorial_pos_tracking)
+[12.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization -- -j20 -l20
+[12.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization
+[12.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_aruco_localization)
+[12.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_aruco_localization
+[12.641s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization' for CMake module files
+[12.641s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization' for CMake config files
+[12.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_aruco_localization', 'cmake_prefix_path')
+[12.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.ps1'
+[12.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.dsv'
+[12.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.sh'
+[12.650s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib'
+[12.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_aruco_localization', 'ld_library_path_lib')
+[12.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.ps1'
+[12.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.dsv'
+[12.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.sh'
+[12.658s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/bin'
+[12.658s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib/pkgconfig/zed_aruco_localization.pc'
+[12.658s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib/python3.10/site-packages'
+[12.658s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/bin'
+[12.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.ps1'
+[12.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.dsv'
+[12.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.sh'
+[12.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.bash'
+[12.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.zsh'
+[12.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/colcon-core/packages/zed_aruco_localization)
+[12.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_aruco_localization)
+[12.708s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization' for CMake module files
+[12.708s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization' for CMake config files
+[12.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_aruco_localization', 'cmake_prefix_path')
+[12.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.ps1'
+[12.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.dsv'
+[12.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/cmake_prefix_path.sh'
+[12.716s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib'
+[12.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_aruco_localization', 'ld_library_path_lib')
+[12.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.ps1'
+[12.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.dsv'
+[12.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/hook/ld_library_path_lib.sh'
+[12.724s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/bin'
+[12.724s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib/pkgconfig/zed_aruco_localization.pc'
+[12.724s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib/python3.10/site-packages'
+[12.724s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/bin'
+[12.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.ps1'
+[12.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.dsv'
+[12.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.sh'
+[12.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.bash'
+[12.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/zed_aruco_localization/package.zsh'
+[12.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/share/colcon-core/packages/zed_aruco_localization)
+[12.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert -- -j20 -l20
+[12.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert
+[13.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_rgb_convert)
+[13.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_rgb_convert
+[13.166s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert' for CMake module files
+[13.166s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert' for CMake config files
+[13.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_rgb_convert', 'cmake_prefix_path')
+[13.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.ps1'
+[13.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.dsv'
+[13.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.sh'
+[13.177s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib'
+[13.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_rgb_convert', 'ld_library_path_lib')
+[13.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.ps1'
+[13.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.dsv'
+[13.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.sh'
+[13.184s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/bin'
+[13.184s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib/pkgconfig/zed_rgb_convert.pc'
+[13.185s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib/python3.10/site-packages'
+[13.185s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/bin'
+[13.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.ps1'
+[13.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.dsv'
+[13.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.sh'
+[13.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.bash'
+[13.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.zsh'
+[13.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/colcon-core/packages/zed_rgb_convert)
+[13.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_rgb_convert)
+[13.230s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert' for CMake module files
+[13.230s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert' for CMake config files
+[13.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_rgb_convert', 'cmake_prefix_path')
+[13.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.ps1'
+[13.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.dsv'
+[13.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/cmake_prefix_path.sh'
+[13.238s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib'
+[13.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_rgb_convert', 'ld_library_path_lib')
+[13.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.ps1'
+[13.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.dsv'
+[13.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/hook/ld_library_path_lib.sh'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/bin'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib/pkgconfig/zed_rgb_convert.pc'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib/python3.10/site-packages'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/bin'
+[13.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.ps1'
+[13.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.dsv'
+[13.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.sh'
+[13.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.bash'
+[13.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.zsh'
+[13.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/share/colcon-core/packages/zed_rgb_convert)
+[13.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.255s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.276s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shi/ENSTA/ROB314/test_ws/install/local_setup.ps1'
+[13.289s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shi/ENSTA/ROB314/test_ws/install/_local_setup_util_ps1.py'
+[13.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shi/ENSTA/ROB314/test_ws/install/setup.ps1'
+[13.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shi/ENSTA/ROB314/test_ws/install/local_setup.sh'
+[13.297s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shi/ENSTA/ROB314/test_ws/install/_local_setup_util_sh.py'
+[13.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shi/ENSTA/ROB314/test_ws/install/setup.sh'
+[13.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shi/ENSTA/ROB314/test_ws/install/local_setup.bash'
+[13.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shi/ENSTA/ROB314/test_ws/install/setup.bash'
+[13.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shi/ENSTA/ROB314/test_ws/install/local_setup.zsh'
+[13.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shi/ENSTA/ROB314/test_ws/install/setup.zsh'

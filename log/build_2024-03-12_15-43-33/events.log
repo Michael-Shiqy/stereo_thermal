@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'zed_aruco_localization'}
+[0.000136] (-) JobUnselected: {'identifier': 'zed_components'}
+[0.000147] (-) JobUnselected: {'identifier': 'zed_depth_to_laserscan'}
+[0.000156] (-) JobUnselected: {'identifier': 'zed_display_rviz2'}
+[0.000164] (-) JobUnselected: {'identifier': 'zed_interfaces'}
+[0.000173] (-) JobUnselected: {'identifier': 'zed_multi_camera'}
+[0.000181] (-) JobUnselected: {'identifier': 'zed_rgb_convert'}
+[0.000190] (-) JobUnselected: {'identifier': 'zed_robot_integration'}
+[0.000199] (-) JobUnselected: {'identifier': 'zed_ros2'}
+[0.000209] (-) JobUnselected: {'identifier': 'zed_tutorial_depth'}
+[0.000218] (-) JobUnselected: {'identifier': 'zed_tutorial_pos_tracking'}
+[0.000227] (-) JobUnselected: {'identifier': 'zed_tutorial_video'}
+[0.000235] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.000246] (pc_sub) JobQueued: {'identifier': 'pc_sub', 'dependencies': OrderedDict()}
+[0.000258] (pc_sub) JobStarted: {'identifier': 'pc_sub'}
+[0.028561] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'cmake'}
+[0.029340] (pc_sub) JobProgress: {'identifier': 'pc_sub', 'progress': 'build'}
+[0.029566] (pc_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(stereo_thermal)'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib'), ('HOME', '/home/shi'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/shi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shi/anaconda3/envs/stereo_thermal/bin:/home/shi/anaconda3/condabin:/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2154,unix/R-Daneel:/tmp/.ICE-unix/2154'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9da0a9cc_585a_457d_b0f2_0b7697b97e52'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('CONDA_PREFIX_1', '/home/shi/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub'), ('CONDA_PYTHON_EXE', '/home/shi/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'stereo_thermal'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('CONDA_PREFIX', '/home/shi/anaconda3/envs/stereo_thermal'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_robot_integration:/home/shi/ENSTA/ROB314/test_ws/install/zed_multi_camera:/home/shi/ENSTA/ROB314/test_ws/install/zed_display_rviz2:/home/shi/ENSTA/ROB314/test_ws/install/zed_depth_to_laserscan:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_video:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_pos_tracking:/home/shi/ENSTA/ROB314/test_ws/install/zed_tutorial_depth:/home/shi/ENSTA/ROB314/test_ws/install/zed_rgb_convert:/home/shi/ENSTA/ROB314/test_ws/install/zed_aruco_localization:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/pc_sub:/opt/ros/humble')]), 'shell': False}
+[0.062347] (pc_sub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pc_sub\x1b[0m\n'}
+[0.087130] (pc_sub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o\x1b[0m\n'}
+[0.099368] (-) TimerEvent: {}
+[0.199728] (-) TimerEvent: {}
+[0.300065] (-) TimerEvent: {}
+[0.400403] (-) TimerEvent: {}
+[0.500764] (-) TimerEvent: {}
+[0.601111] (-) TimerEvent: {}
+[0.701520] (-) TimerEvent: {}
+[0.801860] (-) TimerEvent: {}
+[0.902202] (-) TimerEvent: {}
+[1.002550] (-) TimerEvent: {}
+[1.102908] (-) TimerEvent: {}
+[1.203249] (-) TimerEvent: {}
+[1.303600] (-) TimerEvent: {}
+[1.403932] (-) TimerEvent: {}
+[1.504276] (-) TimerEvent: {}
+[1.604611] (-) TimerEvent: {}
+[1.704954] (-) TimerEvent: {}
+[1.805179] (-) TimerEvent: {}
+[1.905406] (-) TimerEvent: {}
+[2.005630] (-) TimerEvent: {}
+[2.105867] (-) TimerEvent: {}
+[2.206115] (-) TimerEvent: {}
+[2.306339] (-) TimerEvent: {}
+[2.406583] (-) TimerEvent: {}
+[2.506850] (-) TimerEvent: {}
+[2.607171] (-) TimerEvent: {}
+[2.707521] (-) TimerEvent: {}
+[2.807794] (-) TimerEvent: {}
+[2.908064] (-) TimerEvent: {}
+[2.935247] (pc_sub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/sys/mman.h:25\x1b[m\x1b[K,\n'}
+[2.935402] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/low_level_io.h:62\x1b[m\x1b[K,\n'}
+[2.935451] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:50\x1b[m\x1b[K,\n'}
+[2.935486] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[2.935517] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72\x1b[m\x1b[K,\n'}
+[2.935551] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5\x1b[m\x1b[K:\n'}
+[2.935588] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.935622] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.935714] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.935761] (pc_sub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[2.935816] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[2.935848] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[2.935879] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[2.935909] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[2.935938] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[2.935968] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:40\x1b[m\x1b[K,\n'}
+[2.936019] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:40\x1b[m\x1b[K,\n'}
+[2.936052] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[2.936082] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3\x1b[m\x1b[K,\n'}
+[2.936112] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:46\x1b[m\x1b[K,\n'}
+[2.936141] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46\x1b[m\x1b[K,\n'}
+[2.936170] (pc_sub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:5\x1b[m\x1b[K:\n'}
+[2.936205] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator+=(PointXYZT&, const PointXYZT&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.936236] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.936267] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.936297] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.936326] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.936356] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.936384] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.936412] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator+=(PointXYZT&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.936453] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.936484] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.936513] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.937085] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator-=(PointXYZT&, const PointXYZT&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.937205] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.937244] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.937280] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.937312] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.937377] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.937421] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.937452] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator-=(PointXYZT&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.937483] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.937515] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.937543] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.938260] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator*=(PointXYZT&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.938338] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.938377] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.938412] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.938621] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kconst PointXYZT& pcl::common::operator/=(PointXYZT&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.938693] (pc_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:23:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct PointXYZT\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.938749] (pc_sub) StderrLine: {'line': b'   23 |                                   (float, \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K, temp))\n'}
+[2.938800] (pc_sub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.008165] (-) TimerEvent: {}
+[3.108432] (-) TimerEvent: {}
+[3.208699] (-) TimerEvent: {}
+[3.308974] (-) TimerEvent: {}
+[3.409246] (-) TimerEvent: {}
+[3.509541] (-) TimerEvent: {}
+[3.609822] (-) TimerEvent: {}
+[3.710110] (-) TimerEvent: {}
+[3.810393] (-) TimerEvent: {}
+[3.910677] (-) TimerEvent: {}
+[4.010937] (-) TimerEvent: {}
+[4.111199] (-) TimerEvent: {}
+[4.211459] (-) TimerEvent: {}
+[4.311726] (-) TimerEvent: {}
+[4.412057] (-) TimerEvent: {}
+[4.512299] (-) TimerEvent: {}
+[4.612590] (-) TimerEvent: {}
+[4.712869] (-) TimerEvent: {}
+[4.751678] (pc_sub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1\n'}
+[4.751849] (pc_sub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2\n'}
+[4.752016] (pc_sub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.753760] (pc_sub) CommandEnded: {'returncode': 2}
+[4.812999] (-) TimerEvent: {}
+[4.817049] (pc_sub) JobEnded: {'identifier': 'pc_sub', 'rc': 2}
+[4.827410] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[0.033s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+[1.605s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In member function ‘[01m[Kvoid Pc_Sub::pointcloud_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.605s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCPCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[1.605s]    26 |     [01;31m[KRCPCPP_INFO[m[K(this->get_logger(), "Point cloud is dense: %d", is_dense);
+[1.605s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.605s]       |     [32m[KRCLCPP_INFO[m[K
+[3.061s] gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1
+[3.061s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2
+[3.061s] gmake: *** [Makefile:146: all] Error 2
+[3.063s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20

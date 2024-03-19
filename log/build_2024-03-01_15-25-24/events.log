@@ -1,0 +1,1098 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (zed_interfaces) JobQueued: {'identifier': 'zed_interfaces', 'dependencies': OrderedDict()}
+[0.000235] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict([('zed_interfaces', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces')])}
+[0.000249] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_interfaces', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces'), ('zed_components', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components')])}
+[0.000261] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_interfaces', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces'), ('zed_components', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components'), ('zed_wrapper', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper')])}
+[0.000273] (zed_interfaces) JobStarted: {'identifier': 'zed_interfaces'}
+[0.044377] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'cmake'}
+[0.045008] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'build'}
+[0.045226] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.090762] (zed_interfaces) StdoutLine: {'line': b'[  0%] Built target zed_interfaces__cpp\n'}
+[0.093284] (zed_interfaces) StdoutLine: {'line': b'[ 12%] Built target zed_interfaces__rosidl_generator_c\n'}
+[0.093871] (zed_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_zed_interfaces\n'}
+[0.099806] (-) TimerEvent: {}
+[0.111733] (zed_interfaces) StdoutLine: {'line': b'[ 24%] Built target zed_interfaces__rosidl_typesupport_cpp\n'}
+[0.113412] (zed_interfaces) StdoutLine: {'line': b'[ 36%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.113780] (zed_interfaces) StdoutLine: {'line': b'[ 48%] Built target zed_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.114527] (zed_interfaces) StdoutLine: {'line': b'[ 60%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.116869] (zed_interfaces) StdoutLine: {'line': b'[ 72%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.120577] (zed_interfaces) StdoutLine: {'line': b'[ 84%] Built target zed_interfaces__rosidl_typesupport_c\n'}
+[0.142066] (zed_interfaces) StdoutLine: {'line': b'[ 84%] Built target zed_interfaces\n'}
+[0.156788] (zed_interfaces) StdoutLine: {'line': b'[ 85%] Built target zed_interfaces__py\n'}
+[0.174512] (zed_interfaces) StdoutLine: {'line': b'[ 96%] Built target zed_interfaces__rosidl_generator_py\n'}
+[0.187937] (zed_interfaces) StdoutLine: {'line': b'[ 97%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.188216] (zed_interfaces) StdoutLine: {'line': b'[ 98%] Built target zed_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.188414] (zed_interfaces) StdoutLine: {'line': b'[100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199965] (-) TimerEvent: {}
+[0.251712] (zed_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.251974] (zed_interfaces) StdoutLine: {'line': b'writing zed_interfaces.egg-info/PKG-INFO\n'}
+[0.252170] (zed_interfaces) StdoutLine: {'line': b'writing dependency_links to zed_interfaces.egg-info/dependency_links.txt\n'}
+[0.252222] (zed_interfaces) StdoutLine: {'line': b'writing top-level names to zed_interfaces.egg-info/top_level.txt\n'}
+[0.253642] (zed_interfaces) StdoutLine: {'line': b"reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'\n"}
+[0.254168] (zed_interfaces) StdoutLine: {'line': b"writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'\n"}
+[0.269833] (zed_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_zed_interfaces_egg\n'}
+[0.277849] (zed_interfaces) CommandEnded: {'returncode': 0}
+[0.300161] (-) TimerEvent: {}
+[0.400430] (-) TimerEvent: {}
+[0.500737] (-) TimerEvent: {}
+[0.594724] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'install'}
+[0.600836] (-) TimerEvent: {}
+[0.603214] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.610576] (zed_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.611294] (zed_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.611369] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces\n'}
+[0.612078] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.h\n'}
+[0.612122] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.h\n'}
+[0.612173] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.h\n'}
+[0.612230] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.h\n'}
+[0.612267] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__functions.h\n'}
+[0.612316] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.h\n'}
+[0.612366] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.h\n'}
+[0.612398] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__functions.h\n'}
+[0.612448] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.h\n'}
+[0.612482] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.h\n'}
+[0.612531] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__functions.h\n'}
+[0.612562] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.h\n'}
+[0.612602] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.h\n'}
+[0.612646] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__functions.h\n'}
+[0.612685] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.h\n'}
+[0.612732] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.h\n'}
+[0.612786] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__functions.h\n'}
+[0.612837] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.h\n'}
+[0.612890] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.h\n'}
+[0.612940] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__functions.h\n'}
+[0.612992] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.h\n'}
+[0.613044] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.h\n'}
+[0.613095] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__functions.h\n'}
+[0.613155] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.h\n'}
+[0.613199] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.h\n'}
+[0.613249] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__functions.h\n'}
+[0.613301] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.h\n'}
+[0.613352] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.h\n'}
+[0.613404] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__functions.h\n'}
+[0.613456] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.h\n'}
+[0.613507] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.h\n'}
+[0.613562] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__functions.h\n'}
+[0.613615] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.h\n'}
+[0.613664] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.h\n'}
+[0.613713] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__functions.h\n'}
+[0.613761] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.h\n'}
+[0.613810] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.h\n'}
+[0.613858] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__functions.h\n'}
+[0.613906] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.h\n'}
+[0.613955] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.h\n'}
+[0.614003] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__functions.h\n'}
+[0.614052] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.h\n'}
+[0.614100] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.h\n'}
+[0.614147] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__functions.h\n'}
+[0.614195] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.h\n'}
+[0.614243] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.h\n'}
+[0.614292] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.h\n'}
+[0.614340] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.h\n'}
+[0.614387] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.h\n'}
+[0.614433] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.h\n'}
+[0.614481] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.h\n'}
+[0.614529] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.h\n'}
+[0.614576] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.h\n'}
+[0.614623] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.h\n'}
+[0.614680] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.614817] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.h\n'}
+[0.614882] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.h\n'}
+[0.614943] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__functions.h\n'}
+[0.614997] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.h\n'}
+[0.615056] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.h\n'}
+[0.615110] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__functions.h\n'}
+[0.615161] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.h\n'}
+[0.615216] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.h\n'}
+[0.615271] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__functions.h\n'}
+[0.615326] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.h\n'}
+[0.615380] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.h\n'}
+[0.615433] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.h\n'}
+[0.615484] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.h\n'}
+[0.615534] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.h\n'}
+[0.615634] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh\n'}
+[0.615721] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv\n'}
+[0.616324] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616383] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616426] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616455] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616497] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616539] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616580] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616632] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616685] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616737] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616789] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616842] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616894] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616944] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.616995] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.617050] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.617104] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[0.617154] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h\n'}
+[0.617731] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.hpp\n'}
+[0.617762] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.hpp\n'}
+[0.617810] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.hpp\n'}
+[0.617841] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.hpp\n'}
+[0.617883] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp\n'}
+[0.617925] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp\n'}
+[0.617965] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp\n'}
+[0.618012] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp\n'}
+[0.618061] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp\n'}
+[0.618111] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp\n'}
+[0.618160] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp\n'}
+[0.618210] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp\n'}
+[0.618259] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp\n'}
+[0.618317] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp\n'}
+[0.618377] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp\n'}
+[0.618476] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp\n'}
+[0.618540] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__builder.hpp\n'}
+[0.618598] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.hpp\n'}
+[0.618742] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__traits.hpp\n'}
+[0.618808] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__builder.hpp\n'}
+[0.618852] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.hpp\n'}
+[0.618894] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__traits.hpp\n'}
+[0.618932] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__builder.hpp\n'}
+[0.618985] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.hpp\n'}
+[0.619044] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__traits.hpp\n'}
+[0.619086] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__builder.hpp\n'}
+[0.619137] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.hpp\n'}
+[0.619177] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__traits.hpp\n'}
+[0.619215] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__builder.hpp\n'}
+[0.619266] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.hpp\n'}
+[0.619331] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__traits.hpp\n'}
+[0.619375] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__builder.hpp\n'}
+[0.619409] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.hpp\n'}
+[0.619449] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__traits.hpp\n'}
+[0.619487] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__builder.hpp\n'}
+[0.619538] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.hpp\n'}
+[0.619592] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__traits.hpp\n'}
+[0.619632] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__builder.hpp\n'}
+[0.619671] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.hpp\n'}
+[0.619722] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__traits.hpp\n'}
+[0.619785] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__builder.hpp\n'}
+[0.619830] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.hpp\n'}
+[0.619870] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__traits.hpp\n'}
+[0.619921] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__builder.hpp\n'}
+[0.619986] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.hpp\n'}
+[0.620030] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__traits.hpp\n'}
+[0.620080] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.hpp\n'}
+[0.620121] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.hpp\n'}
+[0.620160] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.hpp\n'}
+[0.620210] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.hpp\n'}
+[0.620267] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.hpp\n'}
+[0.620309] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.hpp\n'}
+[0.620345] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.hpp\n'}
+[0.620383] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.hpp\n'}
+[0.620433] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.hpp\n'}
+[0.620494] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.hpp\n'}
+[0.620530] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__builder.hpp\n'}
+[0.620569] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.hpp\n'}
+[0.620618] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__traits.hpp\n'}
+[0.620668] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__builder.hpp\n'}
+[0.620718] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.hpp\n'}
+[0.620783] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__traits.hpp\n'}
+[0.620846] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__builder.hpp\n'}
+[0.620911] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.hpp\n'}
+[0.620974] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__traits.hpp\n'}
+[0.621034] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.hpp\n'}
+[0.621084] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.hpp\n'}
+[0.621135] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.hpp\n'}
+[0.621766] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.621843] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.621903] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.621962] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622036] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622112] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622187] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622265] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622344] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622422] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622501] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622577] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622688] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622830] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.622930] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.622982] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.623051] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.623117] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.623630] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h\n'}
+[0.623708] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h\n'}
+[0.623773] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[0.623843] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h\n'}
+[0.623912] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h\n'}
+[0.623982] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h\n'}
+[0.624066] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[0.624149] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h\n'}
+[0.624234] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[0.624319] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h\n'}
+[0.624408] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h\n'}
+[0.624491] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h\n'}
+[0.624574] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h\n'}
+[0.624656] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h\n'}
+[0.624737] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.624823] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[0.624905] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h\n'}
+[0.624989] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h\n'}
+[0.625518] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625587] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625654] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625720] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625786] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625851] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625918] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.625995] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626068] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626143] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626215] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626289] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626362] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626436] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626511] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626584] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626719] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.626986] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh\n'}
+[0.627095] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv\n'}
+[0.627346] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.627430] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.627493] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.627559] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.628583] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py\n'}
+[0.628644] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.628681] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.628733] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.628785] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/libzed_interfaces__rosidl_generator_py.so\n'}
+[0.628835] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py\n'}
+[0.628892] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py\n'}
+[0.628952] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df_s.c\n'}
+[0.629012] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py\n'}
+[0.629076] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di_s.c\n'}
+[0.629147] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py\n'}
+[0.629202] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d_s.c\n'}
+[0.629267] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py\n'}
+[0.629333] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped_s.c\n'}
+[0.629388] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py\n'}
+[0.629444] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat_s.c\n'}
+[0.629498] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py\n'}
+[0.629553] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df_s.c\n'}
+[0.629940] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py\n'}
+[0.629995] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di_s.c\n'}
+[0.630026] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py\n'}
+[0.630069] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d_s.c\n'}
+[0.630129] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py\n'}
+[0.630195] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object_s.c\n'}
+[0.630261] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py\n'}
+[0.630327] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped_s.c\n'}
+[0.630393] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py\n'}
+[0.630460] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped_s.c\n'}
+[0.630530] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py\n'}
+[0.630594] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status_s.c\n'}
+[0.630652] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py\n'}
+[0.630700] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d_s.c\n'}
+[0.630747] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py\n'}
+[0.630794] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d_s.c\n'}
+[0.630842] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py\n'}
+[0.630890] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py\n'}
+[0.630945] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose_s.c\n'}
+[0.630990] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py\n'}
+[0.631034] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi_s.c\n'}
+[0.631083] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py\n'}
+[0.631130] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec_s.c\n'}
+[0.631181] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631230] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631280] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631435] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631567] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631689] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.631777] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl\n'}
+[0.631852] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl\n'}
+[0.631925] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl\n'}
+[0.631995] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl\n'}
+[0.632063] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl\n'}
+[0.632130] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl\n'}
+[0.632196] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl\n'}
+[0.632263] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl\n'}
+[0.632329] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl\n'}
+[0.632394] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl\n'}
+[0.632459] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl\n'}
+[0.632525] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl\n'}
+[0.632589] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl\n'}
+[0.632655] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl\n'}
+[0.632722] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl\n'}
+[0.632787] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl\n'}
+[0.632850] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl\n'}
+[0.632917] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg\n'}
+[0.632982] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg\n'}
+[0.633046] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg\n'}
+[0.633109] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg\n'}
+[0.633172] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg\n'}
+[0.633236] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg\n'}
+[0.633299] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg\n'}
+[0.633362] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg\n'}
+[0.633424] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg\n'}
+[0.633486] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg\n'}
+[0.633550] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg\n'}
+[0.633612] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg\n'}
+[0.633675] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg\n'}
+[0.633737] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg\n'}
+[0.633801] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv\n'}
+[0.633866] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg\n'}
+[0.633930] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg\n'}
+[0.633994] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv\n'}
+[0.634056] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg\n'}
+[0.634121] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg\n'}
+[0.634186] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv\n'}
+[0.634251] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg\n'}
+[0.634314] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg\n'}
+[0.634482] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl\n'}
+[0.634532] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl\n'}
+[0.634580] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl\n'}
+[0.634699] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl\n'}
+[0.634753] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl\n'}
+[0.634782] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl\n'}
+[0.634821] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces\n'}
+[0.634888] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces\n'}
+[0.634960] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh\n'}
+[0.635026] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.635103] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh\n'}
+[0.635191] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv\n'}
+[0.635258] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash\n'}
+[0.635322] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh\n'}
+[0.635386] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh\n'}
+[0.635449] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv\n'}
+[0.635496] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.dsv\n'}
+[0.640659] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces\n'}
+[0.640719] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.640762] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.640826] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.640901] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.640973] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.641043] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.641112] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.641187] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake\n'}
+[0.641235] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake\n'}
+[0.641307] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/package.xml\n'}
+[0.641441] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so\n'}
+[0.641565] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.641688] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.641803] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.641910] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so\n'}
+[0.642018] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.642130] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.661869] (zed_interfaces) StdoutLine: {'line': b"Listing '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces'...\n"}
+[0.661967] (zed_interfaces) StdoutLine: {'line': b"Listing '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg'...\n"}
+[0.662003] (zed_interfaces) StdoutLine: {'line': b"Listing '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv'...\n"}
+[0.664490] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so\n'}
+[0.664592] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.664634] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[0.664668] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.664700] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.664731] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.664788] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.664820] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.664849] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.664885] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.664915] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.664945] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[0.664977] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.665008] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.665061] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.665096] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.665127] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.665155] (zed_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport-release.cmake\n'}
+[0.666424] (zed_interfaces) CommandEnded: {'returncode': 0}
+[0.700974] (-) TimerEvent: {}
+[0.801185] (-) TimerEvent: {}
+[0.901614] (-) TimerEvent: {}
+[1.002033] (-) TimerEvent: {}
+[1.102523] (-) TimerEvent: {}
+[1.113894] (zed_interfaces) JobEnded: {'identifier': 'zed_interfaces', 'rc': 0}
+[1.114391] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[1.139329] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[1.139863] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_components'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_components'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.172601] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable version "12.3", minimum required is "12") \n'}
+[1.201428] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "12.3") \n'}
+[1.202026] (zed_components) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.202578] (-) TimerEvent: {}
+[1.276978] (zed_components) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.302763] (-) TimerEvent: {}
+[1.333035] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.334458] (zed_components) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.338223] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.345128] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.354929] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402943] (-) TimerEvent: {}
+[1.503212] (-) TimerEvent: {}
+[1.541658] (zed_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.542475] (zed_components) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.603343] (-) TimerEvent: {}
+[1.617063] (zed_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.703460] (-) TimerEvent: {}
+[1.803670] (-) TimerEvent: {}
+[1.903938] (-) TimerEvent: {}
+[2.004235] (-) TimerEvent: {}
+[2.104540] (-) TimerEvent: {}
+[2.204821] (-) TimerEvent: {}
+[2.217056] (zed_components) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.218000] (zed_components) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.305003] (-) TimerEvent: {}
+[2.405273] (-) TimerEvent: {}
+[2.479710] (zed_components) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.494948] (zed_components) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.495821] (zed_components) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.496022] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components/src/tools/include\n'}
+[2.496112] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.496577] (zed_components) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.497358] (zed_components) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.497439] (zed_components) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.497585] (zed_components) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.499982] (zed_components) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.505452] (-) TimerEvent: {}
+[2.514671] (zed_components) StdoutLine: {'line': b'-- Generating done\n'}
+[2.515907] (zed_components) StdoutLine: {'line': b'-- Build files have been written to: /home/shi/ENSTA/ROB314/test_ws/build/zed_components\n'}
+[2.521244] (zed_components) CommandEnded: {'returncode': 0}
+[2.521649] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'build'}
+[2.521847] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/zed_components', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_components'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.565374] (zed_components) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o\x1b[0m\n'}
+[2.565793] (zed_components) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o\x1b[0m\n'}
+[2.566034] (zed_components) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o\x1b[0m\n'}
+[2.605554] (-) TimerEvent: {}
+[2.705803] (-) TimerEvent: {}
+[2.806061] (-) TimerEvent: {}
+[2.906358] (-) TimerEvent: {}
+[3.006670] (-) TimerEvent: {}
+[3.106948] (-) TimerEvent: {}
+[3.207228] (-) TimerEvent: {}
+[3.282948] (zed_components) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19\x1b[m\x1b[K,\n'}
+[3.283136] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:22\x1b[m\x1b[K:\n'}
+[3.283213] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Fusion.hpp:68:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: ~ FUSION SDK is distributed in Early Access ~\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.283273] (zed_components) StderrLine: {'line': b'   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.283327] (zed_components) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.307331] (-) TimerEvent: {}
+[3.407624] (-) TimerEvent: {}
+[3.507892] (-) TimerEvent: {}
+[3.608157] (-) TimerEvent: {}
+[3.708516] (-) TimerEvent: {}
+[3.808858] (-) TimerEvent: {}
+[3.909193] (-) TimerEvent: {}
+[4.009545] (-) TimerEvent: {}
+[4.109889] (-) TimerEvent: {}
+[4.210224] (-) TimerEvent: {}
+[4.310561] (-) TimerEvent: {}
+[4.410925] (-) TimerEvent: {}
+[4.511280] (-) TimerEvent: {}
+[4.611654] (-) TimerEvent: {}
+[4.712031] (-) TimerEvent: {}
+[4.812393] (-) TimerEvent: {}
+[4.912730] (-) TimerEvent: {}
+[5.013077] (-) TimerEvent: {}
+[5.113454] (-) TimerEvent: {}
+[5.213801] (-) TimerEvent: {}
+[5.314128] (-) TimerEvent: {}
+[5.414498] (-) TimerEvent: {}
+[5.514865] (-) TimerEvent: {}
+[5.615092] (-) TimerEvent: {}
+[5.715354] (-) TimerEvent: {}
+[5.815696] (-) TimerEvent: {}
+[5.916025] (-) TimerEvent: {}
+[6.016352] (-) TimerEvent: {}
+[6.116690] (-) TimerEvent: {}
+[6.217029] (-) TimerEvent: {}
+[6.317366] (-) TimerEvent: {}
+[6.417706] (-) TimerEvent: {}
+[6.518067] (-) TimerEvent: {}
+[6.618435] (-) TimerEvent: {}
+[6.718779] (-) TimerEvent: {}
+[6.819126] (-) TimerEvent: {}
+[6.919455] (-) TimerEvent: {}
+[7.019796] (-) TimerEvent: {}
+[7.120147] (-) TimerEvent: {}
+[7.220492] (-) TimerEvent: {}
+[7.320849] (-) TimerEvent: {}
+[7.421195] (-) TimerEvent: {}
+[7.521547] (-) TimerEvent: {}
+[7.621890] (-) TimerEvent: {}
+[7.722215] (-) TimerEvent: {}
+[7.822561] (-) TimerEvent: {}
+[7.922967] (-) TimerEvent: {}
+[8.023312] (-) TimerEvent: {}
+[8.123643] (-) TimerEvent: {}
+[8.223974] (-) TimerEvent: {}
+[8.324319] (-) TimerEvent: {}
+[8.424693] (-) TimerEvent: {}
+[8.525068] (-) TimerEvent: {}
+[8.625452] (-) TimerEvent: {}
+[8.725815] (-) TimerEvent: {}
+[8.826155] (-) TimerEvent: {}
+[8.926501] (-) TimerEvent: {}
+[9.026883] (-) TimerEvent: {}
+[9.127227] (-) TimerEvent: {}
+[9.227586] (-) TimerEvent: {}
+[9.327934] (-) TimerEvent: {}
+[9.428269] (-) TimerEvent: {}
+[9.528606] (-) TimerEvent: {}
+[9.628946] (-) TimerEvent: {}
+[9.729281] (-) TimerEvent: {}
+[9.829623] (-) TimerEvent: {}
+[9.929965] (-) TimerEvent: {}
+[10.030321] (-) TimerEvent: {}
+[10.130692] (-) TimerEvent: {}
+[10.231021] (-) TimerEvent: {}
+[10.331363] (-) TimerEvent: {}
+[10.431710] (-) TimerEvent: {}
+[10.532067] (-) TimerEvent: {}
+[10.632398] (-) TimerEvent: {}
+[10.732740] (-) TimerEvent: {}
+[10.833084] (-) TimerEvent: {}
+[10.933427] (-) TimerEvent: {}
+[11.033785] (-) TimerEvent: {}
+[11.134122] (-) TimerEvent: {}
+[11.234455] (-) TimerEvent: {}
+[11.334809] (-) TimerEvent: {}
+[11.435170] (-) TimerEvent: {}
+[11.535506] (-) TimerEvent: {}
+[11.635842] (-) TimerEvent: {}
+[11.736184] (-) TimerEvent: {}
+[11.836511] (-) TimerEvent: {}
+[11.936846] (-) TimerEvent: {}
+[12.037176] (-) TimerEvent: {}
+[12.137510] (-) TimerEvent: {}
+[12.237856] (-) TimerEvent: {}
+[12.338185] (-) TimerEvent: {}
+[12.438519] (-) TimerEvent: {}
+[12.538870] (-) TimerEvent: {}
+[12.639197] (-) TimerEvent: {}
+[12.739532] (-) TimerEvent: {}
+[12.839866] (-) TimerEvent: {}
+[12.940191] (-) TimerEvent: {}
+[13.040547] (-) TimerEvent: {}
+[13.140875] (-) TimerEvent: {}
+[13.241205] (-) TimerEvent: {}
+[13.341542] (-) TimerEvent: {}
+[13.441900] (-) TimerEvent: {}
+[13.542279] (-) TimerEvent: {}
+[13.642614] (-) TimerEvent: {}
+[13.742955] (-) TimerEvent: {}
+[13.843292] (-) TimerEvent: {}
+[13.943624] (-) TimerEvent: {}
+[14.043965] (-) TimerEvent: {}
+[14.144292] (-) TimerEvent: {}
+[14.244636] (-) TimerEvent: {}
+[14.344969] (-) TimerEvent: {}
+[14.445303] (-) TimerEvent: {}
+[14.545631] (-) TimerEvent: {}
+[14.645966] (-) TimerEvent: {}
+[14.746304] (-) TimerEvent: {}
+[14.846654] (-) TimerEvent: {}
+[14.946987] (-) TimerEvent: {}
+[15.047339] (-) TimerEvent: {}
+[15.147719] (-) TimerEvent: {}
+[15.248060] (-) TimerEvent: {}
+[15.348428] (-) TimerEvent: {}
+[15.448687] (-) TimerEvent: {}
+[15.548914] (-) TimerEvent: {}
+[15.649136] (-) TimerEvent: {}
+[15.749496] (-) TimerEvent: {}
+[15.849827] (-) TimerEvent: {}
+[15.950153] (-) TimerEvent: {}
+[16.050501] (-) TimerEvent: {}
+[16.150847] (-) TimerEvent: {}
+[16.251220] (-) TimerEvent: {}
+[16.351565] (-) TimerEvent: {}
+[16.451917] (-) TimerEvent: {}
+[16.552240] (-) TimerEvent: {}
+[16.652567] (-) TimerEvent: {}
+[16.752912] (-) TimerEvent: {}
+[16.853249] (-) TimerEvent: {}
+[16.953596] (-) TimerEvent: {}
+[17.053914] (-) TimerEvent: {}
+[17.154238] (-) TimerEvent: {}
+[17.254563] (-) TimerEvent: {}
+[17.354799] (-) TimerEvent: {}
+[17.455074] (-) TimerEvent: {}
+[17.555335] (-) TimerEvent: {}
+[17.655596] (-) TimerEvent: {}
+[17.755870] (-) TimerEvent: {}
+[17.856124] (-) TimerEvent: {}
+[17.956410] (-) TimerEvent: {}
+[18.056653] (-) TimerEvent: {}
+[18.156901] (-) TimerEvent: {}
+[18.257155] (-) TimerEvent: {}
+[18.357403] (-) TimerEvent: {}
+[18.457658] (-) TimerEvent: {}
+[18.557905] (-) TimerEvent: {}
+[18.658184] (-) TimerEvent: {}
+[18.758470] (-) TimerEvent: {}
+[18.858712] (-) TimerEvent: {}
+[18.959017] (-) TimerEvent: {}
+[19.059309] (-) TimerEvent: {}
+[19.159564] (-) TimerEvent: {}
+[19.259846] (-) TimerEvent: {}
+[19.360161] (-) TimerEvent: {}
+[19.460488] (-) TimerEvent: {}
+[19.560820] (-) TimerEvent: {}
+[19.661138] (-) TimerEvent: {}
+[19.761445] (-) TimerEvent: {}
+[19.861770] (-) TimerEvent: {}
+[19.962083] (-) TimerEvent: {}
+[20.062404] (-) TimerEvent: {}
+[20.162750] (-) TimerEvent: {}
+[20.263080] (-) TimerEvent: {}
+[20.363421] (-) TimerEvent: {}
+[20.463784] (-) TimerEvent: {}
+[20.564117] (-) TimerEvent: {}
+[20.664440] (-) TimerEvent: {}
+[20.764795] (-) TimerEvent: {}
+[20.865195] (-) TimerEvent: {}
+[20.965559] (-) TimerEvent: {}
+[21.065900] (-) TimerEvent: {}
+[21.166281] (-) TimerEvent: {}
+[21.266640] (-) TimerEvent: {}
+[21.366970] (-) TimerEvent: {}
+[21.467288] (-) TimerEvent: {}
+[21.567602] (-) TimerEvent: {}
+[21.667933] (-) TimerEvent: {}
+[21.768261] (-) TimerEvent: {}
+[21.868588] (-) TimerEvent: {}
+[21.968918] (-) TimerEvent: {}
+[22.069171] (-) TimerEvent: {}
+[22.169549] (-) TimerEvent: {}
+[22.269898] (-) TimerEvent: {}
+[22.370237] (-) TimerEvent: {}
+[22.470593] (-) TimerEvent: {}
+[22.570994] (-) TimerEvent: {}
+[22.671345] (-) TimerEvent: {}
+[22.771688] (-) TimerEvent: {}
+[22.872048] (-) TimerEvent: {}
+[22.972406] (-) TimerEvent: {}
+[23.072756] (-) TimerEvent: {}
+[23.173140] (-) TimerEvent: {}
+[23.273400] (-) TimerEvent: {}
+[23.373744] (-) TimerEvent: {}
+[23.473994] (-) TimerEvent: {}
+[23.574264] (-) TimerEvent: {}
+[23.674494] (-) TimerEvent: {}
+[23.774828] (-) TimerEvent: {}
+[23.875051] (-) TimerEvent: {}
+[23.975297] (-) TimerEvent: {}
+[24.075569] (-) TimerEvent: {}
+[24.175832] (-) TimerEvent: {}
+[24.276098] (-) TimerEvent: {}
+[24.376362] (-) TimerEvent: {}
+[24.476616] (-) TimerEvent: {}
+[24.576869] (-) TimerEvent: {}
+[24.677130] (-) TimerEvent: {}
+[24.777396] (-) TimerEvent: {}
+[24.877670] (-) TimerEvent: {}
+[24.977971] (-) TimerEvent: {}
+[25.078228] (-) TimerEvent: {}
+[25.178510] (-) TimerEvent: {}
+[25.278936] (-) TimerEvent: {}
+[25.379358] (-) TimerEvent: {}
+[25.479875] (-) TimerEvent: {}
+[25.580204] (-) TimerEvent: {}
+[25.680430] (-) TimerEvent: {}
+[25.780769] (-) TimerEvent: {}
+[25.881114] (-) TimerEvent: {}
+[25.981471] (-) TimerEvent: {}
+[26.081859] (-) TimerEvent: {}
+[26.182204] (-) TimerEvent: {}
+[26.282455] (-) TimerEvent: {}
+[26.382799] (-) TimerEvent: {}
+[26.483134] (-) TimerEvent: {}
+[26.583490] (-) TimerEvent: {}
+[26.683830] (-) TimerEvent: {}
+[26.784056] (-) TimerEvent: {}
+[26.884369] (-) TimerEvent: {}
+[26.984700] (-) TimerEvent: {}
+[27.085030] (-) TimerEvent: {}
+[27.185388] (-) TimerEvent: {}
+[27.285729] (-) TimerEvent: {}
+[27.386061] (-) TimerEvent: {}
+[27.486427] (-) TimerEvent: {}
+[27.586763] (-) TimerEvent: {}
+[27.687153] (-) TimerEvent: {}
+[27.787545] (-) TimerEvent: {}
+[27.887874] (-) TimerEvent: {}
+[27.988104] (-) TimerEvent: {}
+[28.088371] (-) TimerEvent: {}
+[28.188629] (-) TimerEvent: {}
+[28.288942] (-) TimerEvent: {}
+[28.389244] (-) TimerEvent: {}
+[28.489611] (-) TimerEvent: {}
+[28.589970] (-) TimerEvent: {}
+[28.690303] (-) TimerEvent: {}
+[28.790642] (-) TimerEvent: {}
+[28.890958] (-) TimerEvent: {}
+[28.991240] (-) TimerEvent: {}
+[29.091578] (-) TimerEvent: {}
+[29.191945] (-) TimerEvent: {}
+[29.292270] (-) TimerEvent: {}
+[29.392616] (-) TimerEvent: {}
+[29.492992] (-) TimerEvent: {}
+[29.593367] (-) TimerEvent: {}
+[29.693698] (-) TimerEvent: {}
+[29.794023] (-) TimerEvent: {}
+[29.894291] (-) TimerEvent: {}
+[29.994627] (-) TimerEvent: {}
+[30.094982] (-) TimerEvent: {}
+[30.195313] (-) TimerEvent: {}
+[30.295636] (-) TimerEvent: {}
+[30.395968] (-) TimerEvent: {}
+[30.496296] (-) TimerEvent: {}
+[30.596656] (-) TimerEvent: {}
+[30.697051] (-) TimerEvent: {}
+[30.797393] (-) TimerEvent: {}
+[30.897733] (-) TimerEvent: {}
+[30.998061] (-) TimerEvent: {}
+[31.098385] (-) TimerEvent: {}
+[31.198727] (-) TimerEvent: {}
+[31.299055] (-) TimerEvent: {}
+[31.399383] (-) TimerEvent: {}
+[31.499719] (-) TimerEvent: {}
+[31.600088] (-) TimerEvent: {}
+[31.700488] (-) TimerEvent: {}
+[31.800839] (-) TimerEvent: {}
+[31.901160] (-) TimerEvent: {}
+[32.001485] (-) TimerEvent: {}
+[32.101816] (-) TimerEvent: {}
+[32.202165] (-) TimerEvent: {}
+[32.302523] (-) TimerEvent: {}
+[32.402873] (-) TimerEvent: {}
+[32.503115] (-) TimerEvent: {}
+[32.603448] (-) TimerEvent: {}
+[32.703778] (-) TimerEvent: {}
+[32.804095] (-) TimerEvent: {}
+[32.904419] (-) TimerEvent: {}
+[33.004752] (-) TimerEvent: {}
+[33.105091] (-) TimerEvent: {}
+[33.205466] (-) TimerEvent: {}
+[33.305811] (-) TimerEvent: {}
+[33.406165] (-) TimerEvent: {}
+[33.506520] (-) TimerEvent: {}
+[33.606875] (-) TimerEvent: {}
+[33.707243] (-) TimerEvent: {}
+[33.807614] (-) TimerEvent: {}
+[33.907971] (-) TimerEvent: {}
+[34.008314] (-) TimerEvent: {}
+[34.108685] (-) TimerEvent: {}
+[34.209035] (-) TimerEvent: {}
+[34.309408] (-) TimerEvent: {}
+[34.409734] (-) TimerEvent: {}
+[34.510080] (-) TimerEvent: {}
+[34.610458] (-) TimerEvent: {}
+[34.710819] (-) TimerEvent: {}
+[34.811162] (-) TimerEvent: {}
+[34.911493] (-) TimerEvent: {}
+[35.011818] (-) TimerEvent: {}
+[35.112146] (-) TimerEvent: {}
+[35.212471] (-) TimerEvent: {}
+[35.312806] (-) TimerEvent: {}
+[35.413133] (-) TimerEvent: {}
+[35.513461] (-) TimerEvent: {}
+[35.613789] (-) TimerEvent: {}
+[35.714112] (-) TimerEvent: {}
+[35.814465] (-) TimerEvent: {}
+[35.914747] (-) TimerEvent: {}
+[36.015013] (-) TimerEvent: {}
+[36.115289] (-) TimerEvent: {}
+[36.215573] (-) TimerEvent: {}
+[36.315877] (-) TimerEvent: {}
+[36.416148] (-) TimerEvent: {}
+[36.516405] (-) TimerEvent: {}
+[36.616658] (-) TimerEvent: {}
+[36.716913] (-) TimerEvent: {}
+[36.817179] (-) TimerEvent: {}
+[36.917437] (-) TimerEvent: {}
+[37.017686] (-) TimerEvent: {}
+[37.117950] (-) TimerEvent: {}
+[37.218224] (-) TimerEvent: {}
+[37.318489] (-) TimerEvent: {}
+[37.418752] (-) TimerEvent: {}
+[37.519025] (-) TimerEvent: {}
+[37.619325] (-) TimerEvent: {}
+[37.719600] (-) TimerEvent: {}
+[37.819887] (-) TimerEvent: {}
+[37.920201] (-) TimerEvent: {}
+[38.020455] (-) TimerEvent: {}
+[38.120710] (-) TimerEvent: {}
+[38.220966] (-) TimerEvent: {}
+[38.321225] (-) TimerEvent: {}
+[38.421484] (-) TimerEvent: {}
+[38.521754] (-) TimerEvent: {}
+[38.622019] (-) TimerEvent: {}
+[38.722277] (-) TimerEvent: {}
+[38.822550] (-) TimerEvent: {}
+[38.922848] (-) TimerEvent: {}
+[39.023096] (-) TimerEvent: {}
+[39.123371] (-) TimerEvent: {}
+[39.223676] (-) TimerEvent: {}
+[39.323931] (-) TimerEvent: {}
+[39.424185] (-) TimerEvent: {}
+[39.524444] (-) TimerEvent: {}
+[39.624705] (-) TimerEvent: {}
+[39.724963] (-) TimerEvent: {}
+[39.825233] (-) TimerEvent: {}
+[39.925536] (-) TimerEvent: {}
+[40.025795] (-) TimerEvent: {}
+[40.126051] (-) TimerEvent: {}
+[40.226298] (-) TimerEvent: {}
+[40.326559] (-) TimerEvent: {}
+[40.373121] (zed_components) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libzed_camera_component.so\x1b[0m\n'}
+[40.426744] (-) TimerEvent: {}
+[40.527100] (-) TimerEvent: {}
+[40.627490] (-) TimerEvent: {}
+[40.727863] (-) TimerEvent: {}
+[40.760828] (zed_components) StdoutLine: {'line': b'[100%] Built target zed_camera_component\n'}
+[40.773419] (zed_components) CommandEnded: {'returncode': 0}
+[40.804940] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'install'}
+[40.805566] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shi/ENSTA/ROB314/test_ws/build/zed_components'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_components'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[40.813751] (zed_components) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[40.814380] (zed_components) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.814806] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/libzed_camera_component.so\n'}
+[40.823412] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//cost_traversability.hpp\n'}
+[40.827962] (-) TimerEvent: {}
+[40.831772] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_types.hpp\n'}
+[40.840099] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//zed_camera_component.hpp\n'}
+[40.848388] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_logging.hpp\n'}
+[40.855669] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_tools.hpp\n'}
+[40.864012] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_win_avg.hpp\n'}
+[40.870403] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//visibility_control.hpp\n'}
+[40.874966] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/library_path.sh\n'}
+[40.880077] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/library_path.dsv\n'}
+[40.885537] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components\n'}
+[40.891342] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components\n'}
+[40.896131] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh\n'}
+[40.901114] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv\n'}
+[40.905945] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/path.sh\n'}
+[40.910848] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/path.dsv\n'}
+[40.916322] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.bash\n'}
+[40.923529] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.sh\n'}
+[40.928149] (-) TimerEvent: {}
+[40.931682] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.zsh\n'}
+[40.939747] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.dsv\n'}
+[40.948011] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.dsv\n'}
+[40.956378] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components\n'}
+[40.964826] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components\n'}
+[40.973086] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.981441] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.989749] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.997893] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake\n'}
+[41.005781] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake\n'}
+[41.013352] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.xml\n'}
+[41.022993] (zed_components) CommandEnded: {'returncode': 0}
+[41.028288] (-) TimerEvent: {}
+[41.114037] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 0}
+[41.114505] (zed_wrapper) JobStarted: {'identifier': 'zed_wrapper'}
+[41.128654] (-) TimerEvent: {}
+[41.141155] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'cmake'}
+[41.141351] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[41.185560] (zed_wrapper) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[41.223070] (zed_wrapper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[41.228118] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[41.228726] (-) TimerEvent: {}
+[41.292013] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[41.298882] (zed_wrapper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[41.299078] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[41.299322] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[41.302676] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[41.328929] (-) TimerEvent: {}
+[41.376924] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[41.387977] (zed_wrapper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[41.388373] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[41.389086] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[41.393597] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[41.429134] (-) TimerEvent: {}
+[41.461305] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[41.462671] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[41.529339] (-) TimerEvent: {}
+[41.531697] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[41.531809] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[41.598579] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[41.599700] (zed_wrapper) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[41.617079] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[41.629508] (-) TimerEvent: {}
+[41.681944] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[41.682176] (zed_wrapper) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  \n'}
+[41.697018] (zed_wrapper) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable version "12.3", minimum required is "12") \n'}
+[41.729219] (zed_wrapper) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "12.3") \n'}
+[41.729568] (-) TimerEvent: {}
+[41.730372] (zed_wrapper) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[41.829759] (-) TimerEvent: {}
+[41.833213] (zed_wrapper) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[41.872488] (zed_wrapper) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[41.929839] (-) TimerEvent: {}
+[41.957131] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[41.959872] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[41.964951] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[41.973505] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[41.985597] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[42.029077] (zed_wrapper) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[42.030018] (-) TimerEvent: {}
+[42.030533] (zed_wrapper) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[42.092078] (zed_wrapper) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[42.107403] (zed_wrapper) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[42.130189] (-) TimerEvent: {}
+[42.137997] (zed_wrapper) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[42.230372] (-) TimerEvent: {}
+[42.330639] (-) TimerEvent: {}
+[42.430904] (-) TimerEvent: {}
+[42.531160] (-) TimerEvent: {}
+[42.597881] (zed_wrapper) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[42.598854] (zed_wrapper) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[42.598933] (zed_wrapper) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[42.631351] (-) TimerEvent: {}
+[42.731598] (-) TimerEvent: {}
+[42.831850] (-) TimerEvent: {}
+[42.932104] (-) TimerEvent: {}
+[43.032365] (-) TimerEvent: {}
+[43.132616] (-) TimerEvent: {}
+[43.211360] (zed_wrapper) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[43.232789] (-) TimerEvent: {}
+[43.333044] (-) TimerEvent: {}
+[43.433291] (-) TimerEvent: {}
+[43.533529] (-) TimerEvent: {}
+[43.589360] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[43.590306] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[43.590536] (zed_wrapper) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper/src\n'}
+[43.590612] (zed_wrapper) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[43.590959] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[43.591300] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[43.592100] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[43.592175] (zed_wrapper) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[43.592388] (zed_wrapper) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[43.593203] (zed_wrapper) StdoutLine: {'line': b'-- Configuring done\n'}
+[43.627835] (zed_wrapper) StdoutLine: {'line': b'-- Generating done\n'}
+[43.629106] (zed_wrapper) StdoutLine: {'line': b'-- Build files have been written to: /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper\n'}
+[43.633700] (-) TimerEvent: {}
+[43.636314] (zed_wrapper) CommandEnded: {'returncode': 0}
+[43.636550] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'build'}
+[43.636567] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[43.678805] (zed_wrapper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o\x1b[0m\n'}
+[43.733893] (-) TimerEvent: {}
+[43.834215] (-) TimerEvent: {}
+[43.934547] (-) TimerEvent: {}
+[44.034788] (-) TimerEvent: {}
+[44.135020] (-) TimerEvent: {}
+[44.235352] (-) TimerEvent: {}
+[44.335708] (-) TimerEvent: {}
+[44.436051] (-) TimerEvent: {}
+[44.536388] (-) TimerEvent: {}
+[44.636725] (-) TimerEvent: {}
+[44.737048] (-) TimerEvent: {}
+[44.837386] (-) TimerEvent: {}
+[44.937713] (-) TimerEvent: {}
+[45.038052] (-) TimerEvent: {}
+[45.138381] (-) TimerEvent: {}
+[45.163117] (zed_wrapper) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:19\x1b[m\x1b[K,\n'}
+[45.163277] (zed_wrapper) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:17\x1b[m\x1b[K:\n'}
+[45.163321] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Fusion.hpp:68:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: ~ FUSION SDK is distributed in Early Access ~\x1b[m\x1b[K\xe2\x80\x99\n'}
+[45.163353] (zed_wrapper) StderrLine: {'line': b'   68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[45.163382] (zed_wrapper) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[45.238579] (-) TimerEvent: {}
+[45.338918] (-) TimerEvent: {}
+[45.439248] (-) TimerEvent: {}
+[45.539586] (-) TimerEvent: {}
+[45.639909] (-) TimerEvent: {}
+[45.740240] (-) TimerEvent: {}
+[45.840568] (-) TimerEvent: {}
+[45.940898] (-) TimerEvent: {}
+[46.041243] (-) TimerEvent: {}
+[46.141597] (-) TimerEvent: {}
+[46.241924] (-) TimerEvent: {}
+[46.342265] (-) TimerEvent: {}
+[46.442591] (-) TimerEvent: {}
+[46.542924] (-) TimerEvent: {}
+[46.643253] (-) TimerEvent: {}
+[46.678278] (zed_wrapper) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable zed_wrapper\x1b[0m\n'}
+[46.743450] (-) TimerEvent: {}
+[46.843787] (-) TimerEvent: {}
+[46.902951] (zed_wrapper) StdoutLine: {'line': b'[100%] Built target zed_wrapper\n'}
+[46.910606] (zed_wrapper) CommandEnded: {'returncode': 0}
+[46.929928] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'install'}
+[46.930709] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[46.938118] (zed_wrapper) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[46.938477] (zed_wrapper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.938853] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper\n'}
+[46.943963] (-) TimerEvent: {}
+[46.946742] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml\n'}
+[46.954650] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml\n'}
+[46.962894] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml\n'}
+[46.970998] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml\n'}
+[46.978407] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml\n'}
+[46.984752] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml\n'}
+[46.992179] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml\n'}
+[46.999250] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro\n'}
+[47.007052] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro\n'}
+[47.012306] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro\n'}
+[47.017288] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed.launch.py\n'}
+[47.022438] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2.launch.py\n'}
+[47.027639] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2i.launch.py\n'}
+[47.032513] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedm.launch.py\n'}
+[47.038298] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedx.launch.py\n'}
+[47.044124] (-) TimerEvent: {}
+[47.044341] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedxm.launch.py\n'}
+[47.051305] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py\n'}
+[47.057189] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper\n'}
+[47.064626] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper\n'}
+[47.072063] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh\n'}
+[47.079152] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv\n'}
+[47.086939] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh\n'}
+[47.094837] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv\n'}
+[47.102214] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash\n'}
+[47.110354] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh\n'}
+[47.119132] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh\n'}
+[47.127416] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv\n'}
+[47.135578] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.dsv\n'}
+[47.144147] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper\n'}
+[47.144278] (-) TimerEvent: {}
+[47.152491] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake\n'}
+[47.160488] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake\n'}
+[47.168776] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.xml\n'}
+[47.178735] (zed_wrapper) CommandEnded: {'returncode': 0}
+[47.244543] (-) TimerEvent: {}
+[47.262347] (zed_wrapper) JobEnded: {'identifier': 'zed_wrapper', 'rc': 0}
+[47.262795] (zed_ros2) JobStarted: {'identifier': 'zed_ros2'}
+[47.290491] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'cmake'}
+[47.290549] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_ros2', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[47.300094] (zed_ros2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[47.344723] (-) TimerEvent: {}
+[47.428457] (zed_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[47.444900] (-) TimerEvent: {}
+[47.468606] (zed_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[47.530923] (zed_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[47.539066] (zed_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[47.539711] (zed_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[47.540097] (zed_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[47.540876] (zed_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[47.542193] (zed_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[47.542451] (zed_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/shi/ENSTA/ROB314/test_ws/build/zed_ros2\n'}
+[47.544981] (zed_ros2) CommandEnded: {'returncode': 0}
+[47.545306] (-) TimerEvent: {}
+[47.545565] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'build'}
+[47.545609] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2', '--', '-j20', '-l20'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[47.575490] (zed_ros2) CommandEnded: {'returncode': 0}
+[47.597694] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'install'}
+[47.597765] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2'], 'cwd': '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shi'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shi'), ('OLDPWD', '/home/shi/ENSTA/ROB314/test_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2289'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/R-Daneel:@/tmp/.ICE-unix/2112,unix/R-Daneel:/tmp/.ICE-unix/2112'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f303dbbe_b853_4a6b_b9f6_fcd8e93db592'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shi/ENSTA/ROB314/test_ws/build/zed_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble')]), 'shell': False}
+[47.605968] (zed_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[47.606413] (zed_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[47.606595] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2\n'}
+[47.616090] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2\n'}
+[47.624696] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh\n'}
+[47.632996] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv\n'}
+[47.641275] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/environment/path.sh\n'}
+[47.645495] (-) TimerEvent: {}
+[47.649640] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv\n'}
+[47.657948] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/local_setup.bash\n'}
+[47.666557] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/local_setup.sh\n'}
+[47.674888] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh\n'}
+[47.684039] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv\n'}
+[47.692823] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.dsv\n'}
+[47.701614] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2\n'}
+[47.710067] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake\n'}
+[47.717731] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake\n'}
+[47.725892] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_ros2/share/zed_ros2/package.xml\n'}
+[47.734549] (zed_ros2) CommandEnded: {'returncode': 0}
+[47.745775] (-) TimerEvent: {}
+[47.816976] (zed_ros2) JobEnded: {'identifier': 'zed_ros2', 'rc': 0}
+[47.817287] (-) EventReactorShutdown: {}

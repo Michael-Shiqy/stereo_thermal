@@ -1,0 +1,84 @@
+[0.031s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[0.046s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.214s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.215s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.487s] -- Checking for module 'eigen3'
+[0.507s] --   Found eigen3, version 3.4.0
+[0.536s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.536s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.572s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.622s] -- Checking for module 'libusb-1.0'
+[0.636s] --   Found libusb-1.0, version 1.0.25
+[0.670s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.671s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[0.671s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.725s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[0.725s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.725s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.725s] [0m** WARNING ** io features related to png will be disabled[0m
+[0.752s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.756s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.904s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.904s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.906s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.913s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.924s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.937s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.002s] -- Found X11: /usr/include   
+[1.003s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.075s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.075s] -- Looking for gethostbyname
+[1.134s] -- Looking for gethostbyname - found
+[1.134s] -- Looking for connect
+[1.208s] -- Looking for connect - found
+[1.208s] -- Looking for remove
+[1.271s] -- Looking for remove - found
+[1.271s] -- Looking for shmat
+[1.333s] -- Looking for shmat - found
+[1.333s] -- Looking for IceConnectionNumber in ICE
+[1.389s] -- Looking for IceConnectionNumber in ICE - found
+[1.447s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.448s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.450s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.452s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.459s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.463s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.466s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.470s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.492s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.492s] -- looking for PCL_COMMON
+[1.493s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.493s] -- looking for PCL_OCTREE
+[1.494s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.494s] -- looking for PCL_IO
+[1.494s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.495s] -- Found PCL: pcl_common;pcl_octree;pcl_io;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt  
+[1.502s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.502s]   By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+[1.502s]   project has asked CMake to find a package configuration file provided by
+[1.502s]   "pcl_conversions", but CMake did not find one.
+[1.502s] 
+[1.502s]   Could not find a package configuration file provided by "pcl_conversions"
+[1.502s]   with any of the following names:
+[1.502s] 
+[1.502s]     pcl_conversionsConfig.cmake
+[1.502s]     pcl_conversions-config.cmake
+[1.502s] 
+[1.502s]   Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+[1.502s]   set "pcl_conversions_DIR" to a directory containing one of the above files.
+[1.502s]   If "pcl_conversions" provides a separate development package or SDK, be
+[1.502s]   sure it has been installed.
+[1.502s] 
+[1.502s] [0m
+[1.502s] -- Configuring incomplete, errors occurred!
+[1.502s] See also "/home/shi/ENSTA/ROB314/test_ws/build/pc_sub/CMakeFiles/CMakeOutput.log".
+[1.508s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.510s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20

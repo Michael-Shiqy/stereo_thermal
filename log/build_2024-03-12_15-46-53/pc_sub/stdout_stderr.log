@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pc_sub[0m
+[100%] Built target pc_sub
+-- Install configuration: ""
+-- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/lib/pc_sub/pc_sub
+-- Set runtime path of "/home/shi/ENSTA/ROB314/test_ws/install/pc_sub/lib/pc_sub/pc_sub" to ""
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/package_run_dependencies/pc_sub
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/parent_prefix_path/pc_sub
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.sh
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/environment/path.dsv
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.bash
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.sh
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.zsh
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/local_setup.dsv
+-- Installing: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.dsv
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/ament_index/resource_index/packages/pc_sub
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig.cmake
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/cmake/pc_subConfig-version.cmake
+-- Up-to-date: /home/shi/ENSTA/ROB314/test_ws/install/pc_sub/share/pc_sub/package.xml

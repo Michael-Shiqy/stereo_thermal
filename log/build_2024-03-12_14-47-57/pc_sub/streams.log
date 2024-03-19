@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target pc_sub[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o[0m
+[2.926s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:[m[K In function ‘[01m[Kvoid processPointCloud(const PointCloud2&)[m[K’:
+[2.926s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpiont[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint[m[K’?
+[2.926s]    25 |             if ([01;31m[Kpiont[m[K.x != nan && point.y != nan && point.z != nan)
+[2.926s]       |                 [01;31m[K^~~~~[m[K
+[2.926s]       |                 [32m[Kpoint[m[K
+[2.926s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:43:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst float[m[K’ and ‘[01m[Kdouble(const char*) noexcept[m[K’ to binary ‘[01m[Koperator!=[m[K’
+[2.926s]    25 |             if (piont.x != nan && [32m[Kpoint.y[m[K [01;31m[K!=[m[K [34m[Knan[m[K && point.z != nan)
+[2.926s]       |                                   [32m[K~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+[2.926s]       |                                         [32m[K|[m[K    [34m[K|[m[K
+[2.926s]       |                                         [32m[K|[m[K    [34m[Kdouble(const char*) noexcept[m[K
+[2.926s]       |                                         [32m[Kconst float[m[K
+[2.926s] [01m[K/home/shi/ENSTA/ROB314/test_ws/src/pc_sub/src/pc_sub.cpp:25:61:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst float[m[K’ and ‘[01m[Kdouble(const char*) noexcept[m[K’ to binary ‘[01m[Koperator!=[m[K’
+[2.926s]    25 |             if (piont.x != nan && point.y != nan && [32m[Kpoint.z[m[K [01;31m[K!=[m[K [34m[Knan[m[K)
+[2.926s]       |                                                     [32m[K~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+[2.926s]       |                                                           [32m[K|[m[K    [34m[K|[m[K
+[2.926s]       |                                                           [32m[K|[m[K    [34m[Kdouble(const char*) noexcept[m[K
+[2.926s]       |                                                           [32m[Kconst float[m[K
+[4.652s] gmake[2]: *** [CMakeFiles/pc_sub.dir/build.make:76: CMakeFiles/pc_sub.dir/src/pc_sub.cpp.o] Error 1
+[4.652s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pc_sub.dir/all] Error 2
+[4.652s] gmake: *** [Makefile:146: all] Error 2
+[4.654s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/pc_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(stereo_thermal) /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/pc_sub -- -j20 -l20

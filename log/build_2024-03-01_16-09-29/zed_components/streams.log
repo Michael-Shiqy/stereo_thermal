@@ -1,0 +1,37 @@
+[0.037s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_components -- -j20 -l20
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[0.079s] [100%] Built target zed_camera_component
+[0.086s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_components -- -j20 -l20
+[0.105s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_components
+[0.109s] -- Install configuration: "Release"
+[0.109s] -- Execute custom install script
+[0.109s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib/libzed_camera_component.so
+[0.109s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[0.109s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_types.hpp
+[0.109s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/path.sh
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/environment/path.dsv
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.bash
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.sh
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.zsh
+[0.111s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/local_setup.dsv
+[0.111s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.dsv
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[0.116s] -- Up-to-date symlink: /home/shi/ENSTA/ROB314/test_ws/install/zed_components/share/zed_components/package.xml
+[0.118s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/home/shi/ENSTA/ROB314/test_ws/install/zed_ros2:/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper:/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_components

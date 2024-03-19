@@ -1,0 +1,102 @@
+[0.027s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.279s] -- Looking for sgemm_
+[0.347s] -- Looking for sgemm_ - not found
+[0.348s] -- Looking for pthread.h
+[0.417s] -- Looking for pthread.h - found
+[0.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.484s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.485s] -- Found Threads: TRUE  
+[0.503s] -- Looking for sgemm_
+[0.567s] -- Looking for sgemm_ - found
+[0.568s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.583s] -- Found CUDA: /usr/local/cuda (found suitable version "12.3", minimum required is "12") 
+[0.615s] -- Found CUDA: /usr/local/cuda (found version "12.3") 
+[0.616s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.843s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.845s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.850s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.915s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.916s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.978s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.993s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.483s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.484s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.484s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.097s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.475s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.476s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.476s] -- Configured cppcheck include dirs: /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper/src
+[2.476s] -- Configured cppcheck exclude dirs and/or files: 
+[2.476s] -- Added test 'lint_cmake' to check CMake code style
+[2.477s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.478s] -- Added test 'uncrustify' to check C / C++ code style
+[2.478s] -- Configured uncrustify additional arguments: 
+[2.478s] -- Added test 'xmllint' to check XML markup files
+[2.479s] -- Configuring done
+[2.513s] -- Generating done
+[2.515s] -- Build files have been written to: /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
+[2.522s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper
+[2.522s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[2.564s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o[0m
+[4.049s] In file included from [01m[K/home/shi/ENSTA/ROB314/test_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:19[m[K,
+[4.049s]                  from [01m[K/home/shi/ENSTA/ROB314/test_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:17[m[K:
+[4.049s] [01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~[m[K’
+[4.049s]    68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+[4.049s]       |                                                                [01;36m[K^[m[K
+[5.564s] [100%] [32m[1mLinking CXX executable zed_wrapper[0m
+[5.789s] [100%] Built target zed_wrapper
+[5.796s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper -- -j20 -l20
+[5.817s] Invoking command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
+[5.824s] -- Install configuration: "Release"
+[5.824s] -- Execute custom install script
+[5.824s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[5.832s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[5.840s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[5.848s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[5.857s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[5.864s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[5.870s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[5.878s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[5.885s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[5.893s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[5.898s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[5.903s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed.launch.py
+[5.908s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2.launch.py
+[5.913s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zed2i.launch.py
+[5.918s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedm.launch.py
+[5.924s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedx.launch.py
+[5.930s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/obsolete/zedxm.launch.py
+[5.937s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[5.943s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[5.950s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[5.958s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[5.965s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[5.972s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[5.980s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[5.988s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[5.996s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[6.005s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[6.013s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[6.021s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[6.030s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[6.038s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[6.046s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[6.054s] -- Symlinking: /home/shi/ENSTA/ROB314/test_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[6.064s] Invoked command in '/home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper' returned '0': AMENT_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_components/lib:/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shi/ENSTA/ROB314/test_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shi/ENSTA/ROB314/test_ws/build/zed_wrapper
